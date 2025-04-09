@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target localization_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable localization_node[0m
+/usr/bin/ld: CMakeFiles/localization_node.dir/src/localization.cpp.o: in function `Localization::imageCallback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+localization.cpp:(.text+0x787): undefined reference to `Localization::processImage(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/localization_node.dir/build.make:191: localization_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/localization_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

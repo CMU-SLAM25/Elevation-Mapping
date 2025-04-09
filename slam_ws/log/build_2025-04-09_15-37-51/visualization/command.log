@@ -1,0 +1,2 @@
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/visualization -- -j12 -l12
+Invoked command in '/home/williamfbx/SLAM/slam_ws/build/visualization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/visualization -- -j12 -l12

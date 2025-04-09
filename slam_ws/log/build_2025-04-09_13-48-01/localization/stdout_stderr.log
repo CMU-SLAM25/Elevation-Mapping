@@ -1,0 +1,107 @@
+[35m[1mConsolidate compiler generated dependencies of target localization_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o[0m
+In file included from [01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:1[m[K:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:48:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   13 |         rclcpp::Subscription<sensor_msgs::msg::[01;31m[KImage[m[K>::SharedPtr camera_subscriber_;
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |         rclcpp::Subscription<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr camera_subscriber_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   13 |         rclcpp::Subscription<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K camera_subscriber_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_subscriber_[m[K’ does not name a type
+   13 |    rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr [01;31m[Kcamera_subscriber_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:52:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type
+   19 |         void imageCallback(const sensor_msgs::msg::[01;31m[KImage[m[K::SharedPtr msg);
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:69:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   19 |       void imageCallback(const sensor_msgs::msg::Image::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   19 |       void imageCallback[34m[K([m[Kconst sensor_msgs::msg::Image::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |                         [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |         void imageCallback(const sensor_msgs::msg::Image::[01;31m[KSharedPtr[m[K msg);
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   19 |       void imageCallback(const sensor_msgs::msg::Image::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+In file included from [01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization_node.cpp:1[m[K:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:48:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   13 |         rclcpp::Subscription<sensor_msgs::msg::[01;31m[KImage[m[K>::SharedPtr camera_subscriber_;
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |         rclcpp::Subscription<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr camera_subscriber_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   13 |         rclcpp::Subscription<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K camera_subscriber_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:[m[K In member function ‘[01m[Kvoid Localization::setupCommunications()[m[K’:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   14 |     [01;31m[Kcamera_subscriber_[m[K = this->create_subscription<sensor_msgs::msg::Image>("camera/camera/color/image_raw", 10,
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:14:70:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   14 | a_subscriber_ = this->create_subscription<sensor_msgs::msg::[01;31m[KImage[m[K>("camera/camera/color/image_raw", 10,
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudHandler[m[K’ has not been declared
+   15 |         std::bind(&[01;31m[KPointCloudHandler[m[K::imageCallback, this, std::placeholders::_1));
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:[m[K At global scope:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:22:58:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type
+   22 | void Localization::imageCallback(const sensor_msgs::msg::[01;31m[KImage[m[K::SharedPtr msg){
+      |                                                          [01;31m[K^~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:22:75:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   22 | alization::imageCallback(const sensor_msgs::msg::Image::SharedPtr [01;31m[Kmsg[m[K){
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:22:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   22 | alization::imageCallback[34m[K([m[Kconst sensor_msgs::msg::Image::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K){
+      |                         [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:22:75:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   22 | alization::imageCallback(const sensor_msgs::msg::Image::SharedPtr [01;31m[Kmsg[m[K){
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:13:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_subscriber_[m[K’ does not name a type
+   13 |         rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr [01;31m[Kcamera_subscriber_[m[K;
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:52:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type
+   19 |         void imageCallback(const sensor_msgs::msg::[01;31m[KImage[m[K::SharedPtr msg);
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:69:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   19 |         void imageCallback(const sensor_msgs::msg::Image::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                     [01;31m[K^~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   19 |         void imageCallback[34m[K([m[Kconst sensor_msgs::msg::Image::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |                           [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                    [32m[K)[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |         void imageCallback(const sensor_msgs::msg::Image::[01;31m[KSharedPtr[m[K msg);
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/include/localization/localization.hpp:19:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   19 |         void imageCallback(const sensor_msgs::msg::Image::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/localization_node.dir/build.make:76: CMakeFiles/localization_node.dir/src/localization.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/localization_node.dir/build.make:90: CMakeFiles/localization_node.dir/src/localization_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/localization_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

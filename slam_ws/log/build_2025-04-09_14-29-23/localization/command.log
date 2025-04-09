@@ -1,0 +1,4 @@
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization
+Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization

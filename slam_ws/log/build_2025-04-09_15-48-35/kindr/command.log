@@ -1,0 +1,3 @@
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/kindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/kindr -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/kindr
+Invoked command in '/home/williamfbx/SLAM/slam_ws/build/kindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/kindr -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/kindr
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/kindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/kindr -- -j12 -l12

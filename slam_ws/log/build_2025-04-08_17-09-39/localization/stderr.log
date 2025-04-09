@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/williamfbx/SLAM/slam_ws/src/localization/launch": No such file or
+  directory.
+
+[0m

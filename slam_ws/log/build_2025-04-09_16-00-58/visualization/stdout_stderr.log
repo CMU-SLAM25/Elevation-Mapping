@@ -1,0 +1,40 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found grid_map_ros: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/share/grid_map_ros/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/visualization
+[35m[1mConsolidate compiler generated dependencies of target visualization_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization_node.cpp.o[0m
+[01m[K/home/williamfbx/SLAM/slam_ws/src/visualization/src/visualization.cpp:[m[K In member function ‘[01m[Kvoid ElevationGridMapNode::occupancyCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/visualization/src/visualization.cpp:46:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgrid_map::GridMapRosConverter::toMessage(grid_map::GridMap&, grid_map_msgs::msg::GridMap&)[m[K’
+   46 |   [01;31m[Kgrid_map::GridMapRosConverter::toMessage(map, message)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/include/grid_map_ros/grid_map_ros.hpp:14[m[K,
+                 from [01m[K/home/williamfbx/SLAM/slam_ws/src/visualization/include/visualization/visualization.hpp:6[m[K,
+                 from [01m[K/home/williamfbx/SLAM/slam_ws/src/visualization/src/visualization.cpp:1[m[K:
+[01m[K/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp:80:55:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic std::unique_ptr<grid_map_msgs::msg::GridMap_<std::allocator<void> >, std::default_delete<grid_map_msgs::msg::GridMap_<std::allocator<void> > > > grid_map::GridMapRosConverter::toMessage(const grid_map::GridMap&)[m[K’
+   80 |   static std::unique_ptr<grid_map_msgs::msg::GridMap> [01;36m[KtoMessage[m[K(
+      |                                                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp:80:55:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp:89:55:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic std::unique_ptr<grid_map_msgs::msg::GridMap_<std::allocator<void> >, std::default_delete<grid_map_msgs::msg::GridMap_<std::allocator<void> > > > grid_map::GridMapRosConverter::toMessage(const grid_map::GridMap&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’
+   89 |   static std::unique_ptr<grid_map_msgs::msg::GridMap> [01;36m[KtoMessage[m[K(
+      |                                                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp:90:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgrid_map_msgs::msg::GridMap[m[K’ {aka ‘[01m[Kgrid_map_msgs::msg::GridMap_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+   90 |  grid_map::GridMap & gridMap, [01;36m[Kconst std::vector<std::string> & layers[m[K);
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/visualization_node.dir/build.make:76: CMakeFiles/visualization_node.dir/src/visualization.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visualization_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

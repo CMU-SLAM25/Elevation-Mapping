@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target localization_node[0m
+[0.100s] [ 33%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization.cpp.o[0m
+[0.102s] [ 66%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o[0m
+[5.657s] [100%] [32m[1mLinking CXX executable localization_node[0m
+[5.897s] /usr/bin/ld: CMakeFiles/localization_node.dir/src/localization.cpp.o: in function `Localization::imageCallback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+[5.897s] localization.cpp:(.text+0x787): undefined reference to `Localization::processImage(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)'
+[5.918s] collect2: error: ld returned 1 exit status
+[5.919s] gmake[2]: *** [CMakeFiles/localization_node.dir/build.make:191: localization_node] Error 1
+[5.919s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/localization_node.dir/all] Error 2
+[5.920s] gmake: *** [Makefile:146: all] Error 2
+[5.921s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12

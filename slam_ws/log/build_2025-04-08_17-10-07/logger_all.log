@@ -1,0 +1,578 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x792945c703a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x792945c37e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x792945c37e50>>)
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/williamfbx/SLAM/slam_ws'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/realsense' with type 'ros.ament_cmake' and name 'realsense'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/realsense2_description) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivers/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivers/realsense-ros/scripts) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization' with type 'ros.ament_cmake' and name 'localization'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping' with type 'ros.ament_cmake' and name 'mapping'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensing) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensing' with type 'ros.ament_cmake' and name 'sensing'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/humble
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/localization', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/localization', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/mapping', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/mapping', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'realsense' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/realsense', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/realsense', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'sensing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/sensing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/sensing', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/sensing', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/williamfbx/SLAM/slam_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/williamfbx/SLAM/slam_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.235s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera_msgs'
+[0.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/localization' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/localization'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/mapping' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/mapping'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/sensing' with build type 'ament_cmake'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/sensing'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs -- -j12 -l12
+[0.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[0.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/mapping -- -j12 -l12
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense -- -j12 -l12
+[0.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/sensing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/sensing -- -j12 -l12
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense -- -j12 -l12
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/sensing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/sensing -- -j12 -l12
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/sensing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/sensing
+[0.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense)
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense
+[0.317s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense' for CMake module files
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense' for CMake config files
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense', 'cmake_prefix_path')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/hook/cmake_prefix_path.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/hook/cmake_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/hook/cmake_prefix_path.sh'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/bin'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/lib/pkgconfig/realsense.pc'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/lib/python3.10/site-packages'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/bin'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.sh'
+[0.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.bash'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.zsh'
+[0.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense/share/colcon-core/packages/realsense)
+[0.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense)
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense' for CMake module files
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense' for CMake config files
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/hook/cmake_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/hook/cmake_prefix_path.sh'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/bin'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/lib/pkgconfig/realsense.pc'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/lib/python3.10/site-packages'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense/bin'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.sh'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.bash'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense/share/realsense/package.zsh'
+[0.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense/share/colcon-core/packages/realsense)
+[0.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensing)
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing' for CMake module files
+[0.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/sensing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/sensing
+[0.337s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing' for CMake config files
+[0.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensing', 'cmake_prefix_path')
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/hook/cmake_prefix_path.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/hook/cmake_prefix_path.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/hook/cmake_prefix_path.sh'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/bin'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/lib/pkgconfig/sensing.pc'
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/lib/python3.10/site-packages'
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/bin'
+[0.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.bash'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.zsh'
+[0.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/sensing/share/colcon-core/packages/sensing)
+[0.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensing)
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing' for CMake module files
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing' for CMake config files
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensing', 'cmake_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/hook/cmake_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/hook/cmake_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/hook/cmake_prefix_path.sh'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/bin'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/lib/pkgconfig/sensing.pc'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/lib/python3.10/site-packages'
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/sensing/bin'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.bash'
+[0.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/sensing/share/sensing/package.zsh'
+[0.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/sensing/share/colcon-core/packages/sensing)
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization
+[0.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization' for CMake module files
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization' for CMake config files
+[0.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/bin'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/lib/pkgconfig/localization.pc'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/lib/python3.10/site-packages'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/bin'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.bash'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.zsh'
+[0.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/localization/share/colcon-core/packages/localization)
+[0.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization' for CMake module files
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization' for CMake config files
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/bin'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/lib/pkgconfig/localization.pc'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/lib/python3.10/site-packages'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/localization/bin'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.bash'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.zsh'
+[0.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/localization/share/colcon-core/packages/localization)
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs -- -j12 -l12
+[3.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs
+[3.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs' for CMake module files
+[3.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense2_camera_msgs
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs' for CMake config files
+[3.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib'
+[3.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/bin'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/bin'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[3.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[3.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs' for CMake module files
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs' for CMake config files
+[3.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[3.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[3.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[3.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib'
+[3.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/bin'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/bin'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[3.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[3.982s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[3.982s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera'
+[3.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.987s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[3.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_description'
+[3.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera
+[3.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/realsense2_description
+[4.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/realsense2_description
+[4.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense2_description -- -j12 -l12
+[4.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense2_description -- -j12 -l12
+[4.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense2_description
+[4.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[4.668s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description' for CMake module files
+[4.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense2_description
+[4.669s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description' for CMake config files
+[4.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[4.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[4.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[4.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[4.672s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/bin'
+[4.672s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[4.672s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/lib/python3.10/site-packages'
+[4.673s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/bin'
+[4.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[4.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[4.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[4.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[4.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[4.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[4.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description' for CMake module files
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description' for CMake config files
+[4.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[4.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[4.680s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/bin'
+[4.680s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[4.680s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/lib/python3.10/site-packages'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/bin'
+[4.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[4.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[4.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[4.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[12.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera
+[12.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense2_camera -- -j12 -l12
+[18.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/mapping -- -j12 -l12
+[18.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/mapping
+[18.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[18.409s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping' for CMake module files
+[18.410s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping' for CMake config files
+[18.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[18.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[18.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[18.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[18.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/mapping
+[18.416s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/lib'
+[18.416s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/bin'
+[18.416s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/lib/pkgconfig/mapping.pc'
+[18.417s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/lib/python3.10/site-packages'
+[18.417s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/bin'
+[18.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.ps1'
+[18.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.dsv'
+[18.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.sh'
+[18.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.bash'
+[18.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.zsh'
+[18.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/mapping/share/colcon-core/packages/mapping)
+[18.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[18.425s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping' for CMake module files
+[18.426s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping' for CMake config files
+[18.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[18.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[18.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[18.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[18.434s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/lib'
+[18.434s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/bin'
+[18.434s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/lib/pkgconfig/mapping.pc'
+[18.435s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/lib/python3.10/site-packages'
+[18.435s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/mapping/bin'
+[18.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.ps1'
+[18.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.dsv'
+[18.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.sh'
+[18.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.bash'
+[18.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.zsh'
+[18.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/mapping/share/colcon-core/packages/mapping)
+[27.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/realsense2_camera -- -j12 -l12
+[27.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense2_camera
+[27.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[27.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/williamfbx/SLAM/slam_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/realsense2_camera
+[27.832s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera' for CMake module files
+[27.833s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera' for CMake config files
+[27.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[27.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[27.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[27.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[27.837s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/lib'
+[27.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[27.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[27.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[27.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[27.839s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/bin'
+[27.839s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[27.840s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[27.840s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/bin'
+[27.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[27.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[27.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[27.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[27.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[27.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[27.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[27.847s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera' for CMake module files
+[27.848s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera' for CMake config files
+[27.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[27.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[27.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[27.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[27.850s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/lib'
+[27.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[27.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[27.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[27.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[27.852s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/bin'
+[27.852s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[27.852s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[27.852s] Level 1:colcon.colcon_core.environment:checking '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/bin'
+[27.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[27.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[27.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[27.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[27.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[27.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/williamfbx/SLAM/slam_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[27.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.855s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.859s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.859s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.859s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.871s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/williamfbx/SLAM/slam_ws/install/local_setup.ps1'
+[27.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/williamfbx/SLAM/slam_ws/install/_local_setup_util_ps1.py'
+[27.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/williamfbx/SLAM/slam_ws/install/setup.ps1'
+[27.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/williamfbx/SLAM/slam_ws/install/local_setup.sh'
+[27.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/williamfbx/SLAM/slam_ws/install/_local_setup_util_sh.py'
+[27.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/williamfbx/SLAM/slam_ws/install/setup.sh'
+[27.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/williamfbx/SLAM/slam_ws/install/local_setup.bash'
+[27.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/williamfbx/SLAM/slam_ws/install/setup.bash'
+[27.880s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/williamfbx/SLAM/slam_ws/install/local_setup.zsh'
+[27.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/williamfbx/SLAM/slam_ws/install/setup.zsh'

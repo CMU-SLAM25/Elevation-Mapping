@@ -1,0 +1,5 @@
+[  9%] Built target gtest
+[ 18%] Built target gtest_main
+[ 27%] Built target realsense2_camera_node
+[ 36%] Built target gtest_template
+[100%] Built target realsense2_camera

@@ -1,0 +1,1 @@
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/mapping -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/mapping

@@ -1,0 +1,31 @@
+[0.032s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/visualization -- -j12 -l12
+[0.051s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.188s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.194s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.228s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.229s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.339s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.410s] -- Configuring done
+[0.414s] -- Generating done
+[0.417s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/visualization
+[0.444s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization_node.cpp.o[0m
+[0.444s] [ 66%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization.cpp.o[0m
+[0.451s] [01m[K/home/williamfbx/SLAM/slam_ws/src/visualization/src/visualization.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kvisualization/visualization.hpp: No such file or directory
+[0.451s]     1 | #include [01;31m[K"visualization/visualization.hpp"[m[K
+[0.451s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.451s] compilation terminated.
+[0.452s] gmake[2]: *** [CMakeFiles/visualization_node.dir/build.make:76: CMakeFiles/visualization_node.dir/src/visualization.cpp.o] Error 1
+[0.452s] gmake[2]: *** Waiting for unfinished jobs....
+[0.453s] [01m[K/home/williamfbx/SLAM/slam_ws/src/visualization/src/visualization_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kvisualization/visualization.hpp: No such file or directory
+[0.453s]     1 | #include [01;31m[K"visualization/visualization.hpp"[m[K
+[0.453s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.453s] compilation terminated.
+[0.453s] gmake[2]: *** [CMakeFiles/visualization_node.dir/build.make:90: CMakeFiles/visualization_node.dir/src/visualization_node.cpp.o] Error 1
+[0.453s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visualization_node.dir/all] Error 2
+[0.454s] gmake: *** [Makefile:146: all] Error 2
+[0.455s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/visualization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/visualization -- -j12 -l12

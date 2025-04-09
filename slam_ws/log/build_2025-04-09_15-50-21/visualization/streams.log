@@ -1,0 +1,26 @@
+[0.043s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/visualization -- -j12 -l12
+[0.132s] [100%] Built target visualization_node
+[0.179s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/visualization -- -j12 -l12
+[0.182s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/visualization
+[0.225s] -- Install configuration: ""
+[0.226s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/lib/visualization/visualization_node
+[0.227s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/include/visualization
+[0.227s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/include/visualization/visualization.hpp
+[0.227s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/launch
+[0.227s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/launch/visualization.launch.py
+[0.227s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/ament_index/resource_index/package_run_dependencies/visualization
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/ament_index/resource_index/parent_prefix_path/visualization
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/environment/ament_prefix_path.sh
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/environment/ament_prefix_path.dsv
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/environment/path.sh
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/environment/path.dsv
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/local_setup.bash
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/local_setup.sh
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/local_setup.zsh
+[0.228s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/local_setup.dsv
+[0.228s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/package.dsv
+[0.229s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/ament_index/resource_index/packages/visualization
+[0.229s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/cmake/visualizationConfig.cmake
+[0.229s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/cmake/visualizationConfig-version.cmake
+[0.230s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/visualization/share/visualization/package.xml
+[0.281s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/visualization

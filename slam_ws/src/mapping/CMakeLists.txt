@@ -39,14 +39,68 @@ find_package(visualization_msgs REQUIRED)
 
 include_directories(include)
 
-add_executable(global_mapping_node src/global_mapping_node.cpp src/global_mapping.cpp src/bayes_filter.cpp include/mapping/bayes_filter.hpp)
-ament_target_dependencies(global_mapping_node rclcpp tf2_geometry_msgs std_msgs sensor_msgs tf2_sensor_msgs geometry_msgs nav_msgs tf2_ros tf2_eigen tf2 pcl_ros pcl_conversions)
+add_executable(global_mapping_node
+  src/global_mapping_node.cpp
+  src/global_mapping.cpp
+  src/bayes_filter.cpp
+  include/mapping/bayes_filter.hpp
+)
 
-add_executable(local_mapping_node src/local_mapping_node.cpp src/local_mapping.cpp src/bayes_filter.cpp include/mapping/bayes_filter.hpp)
-ament_target_dependencies(local_mapping_node rclcpp tf2_geometry_msgs std_msgs sensor_msgs tf2_sensor_msgs geometry_msgs nav_msgs tf2_ros tf2_eigen tf2 pcl_ros pcl_conversions)
+ament_target_dependencies(global_mapping_node
+  rclcpp
+  tf2_geometry_msgs
+  std_msgs
+  sensor_msgs
+  tf2_sensor_msgs
+  geometry_msgs
+  nav_msgs
+  tf2_ros
+  tf2_eigen
+  tf2 pcl_ros
+  pcl_conversions
+)
 
-add_executable(pc_handler_node src/pc_handler_node.cpp src/pc_handler.cpp)
-ament_target_dependencies(pc_handler_node rclcpp tf2_geometry_msgs std_msgs sensor_msgs tf2_sensor_msgs geometry_msgs nav_msgs tf2_ros tf2_eigen tf2 pcl_ros pcl_conversions)
+add_executable(local_mapping_node
+  src/local_mapping_node.cpp
+  src/local_mapping.cpp
+  src/bayes_filter.cpp
+  include/mapping/bayes_filter.hpp
+)
+
+ament_target_dependencies(local_mapping_node
+  rclcpp
+  tf2_geometry_msgs
+  std_msgs
+  sensor_msgs
+  tf2_sensor_msgs
+  geometry_msgs
+  nav_msgs
+  tf2_ros
+  tf2_eigen
+  tf2
+  pcl_ros
+  pcl_conversions
+)
+
+add_executable(pc_handler_node
+  src/pc_handler_node.cpp
+  src/pc_handler.cpp
+)
+
+ament_target_dependencies(pc_handler_node
+  rclcpp
+  tf2_geometry_msgs
+  std_msgs
+  sensor_msgs
+  tf2_sensor_msgs
+  geometry_msgs
+  nav_msgs
+  tf2_ros
+  tf2_eigen
+  tf2
+  pcl_ros
+  pcl_conversions
+)
 
 install(TARGETS 
   global_mapping_node

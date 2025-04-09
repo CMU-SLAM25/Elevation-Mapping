@@ -1,0 +1,13 @@
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:[m[K In member function ‘[01m[Kvoid Localization::setupCommunications()[m[K’:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudHandler[m[K’ has not been declared
+   15 |         std::bind(&[01;31m[KPointCloudHandler[m[K::imageCallback, this, std::placeholders::_1));
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:[m[K In member function ‘[01m[Kvoid Localization::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:22:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 | alization::imageCallback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr msg[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+gmake[2]: *** [CMakeFiles/localization_node.dir/build.make:76: CMakeFiles/localization_node.dir/src/localization.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/localization_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

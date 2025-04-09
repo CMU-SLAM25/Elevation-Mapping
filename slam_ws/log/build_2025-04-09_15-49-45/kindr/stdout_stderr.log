@@ -1,0 +1,76 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  5%] Built target gtest
+[ 11%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target test_kindr[0m
+[100%] Built target test_kindr
+-- Install configuration: ""
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/vectors
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/vectors/Vector.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/vectors/VectorBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/math
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/math/LinearAlgebra.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/Core
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/common
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/common/source_file_pos.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/common/common.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/common/assert_macros_eigen.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/common/assert_macros.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/common/gtest_eigen.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/quaternions
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/quaternions/QuaternionBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/quaternions/Quaternion.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses/PoseDiffBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses/PoseBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses/PoseDiff.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses/Pose.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses/Twist.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/poses/HomogeneousTransformation.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/phys_quant
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/phys_quant/Wrench.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/phys_quant/PhysicalQuantities.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/phys_quant/WrenchBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/phys_quant/PhysicalType.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationDiffBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationDiff.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationQuaternion.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/GlobalAngularVelocity.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationMatrix.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/gtest_rotations.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationMatrixDiff.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/Rotation.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationImpl.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationBase.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/EulerAnglesZyx.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationQuaternionDiff.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationVector.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/AngleAxis.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/EulerAnglesXyz.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/LocalAngularVelocity.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/EulerAnglesXyzDiff.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/RotationConversion.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/include/kindr/kindr/rotations/EulerAnglesZyxDiff.hpp
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/environment/library_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/environment/library_path.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/ament_index/resource_index/package_run_dependencies/kindr
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/ament_index/resource_index/parent_prefix_path/kindr
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/environment/ament_prefix_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/environment/ament_prefix_path.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/environment/path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/environment/path.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/local_setup.bash
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/local_setup.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/local_setup.zsh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/local_setup.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/package.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/ament_index/resource_index/packages/kindr
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/cmake/export_kindrExport.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/cmake/kindrConfig.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/cmake/kindrConfig-version.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/package.xml

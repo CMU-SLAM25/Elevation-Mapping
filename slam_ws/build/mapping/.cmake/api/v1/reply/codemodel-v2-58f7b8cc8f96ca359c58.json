@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-13c51b993e498fae15c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "global_mapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-global_mapping_node-3d370d6be9e1fef246bc.json",
+					"name" : "global_mapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "local_mapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_mapping_node-a77811eeb5c2aace696d.json",
+					"name" : "local_mapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_uninstall-ce9b336b719c79a51da2.json",
+					"name" : "mapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pc_handler_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pc_handler_node-d1d1f6cfadc92a51d769.json",
+					"name" : "pc_handler_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8a4cf75b65662d77e386.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/williamfbx/SLAM/slam_ws/build/mapping",
+		"source" : "/home/williamfbx/SLAM/slam_ws/src/mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

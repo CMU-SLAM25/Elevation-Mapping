@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/mapping -- -j12 -l12
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target global_mapping_node[0m
+[0.128s] [  9%] [32mBuilding CXX object CMakeFiles/local_mapping_node.dir/src/local_mapping.cpp.o[0m
+[0.130s] [ 18%] [32mBuilding CXX object CMakeFiles/local_mapping_node.dir/src/local_mapping_node.cpp.o[0m
+[0.138s] [ 45%] Built target pc_handler_node
+[0.139s] [ 81%] Built target global_mapping_node
+[8.906s] [ 90%] [32m[1mLinking CXX executable local_mapping_node[0m
+[9.535s] [100%] Built target local_mapping_node
+[9.546s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/mapping -- -j12 -l12
+[9.547s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/mapping
+[9.555s] -- Install configuration: ""
+[9.555s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/global_mapping_node
+[9.555s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/local_mapping_node
+[9.558s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/local_mapping_node" to ""
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/pc_handler_node
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/launch
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/launch/mapping.launch.py
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/path.sh
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/path.dsv
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.bash
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.sh
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.zsh
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.dsv
+[9.558s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.dsv
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/ament_index/resource_index/packages/mapping
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[9.558s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.xml
+[9.559s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/mapping

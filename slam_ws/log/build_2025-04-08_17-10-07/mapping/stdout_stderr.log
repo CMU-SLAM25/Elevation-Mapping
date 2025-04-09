@@ -1,0 +1,38 @@
+[ 27%] [32mBuilding CXX object CMakeFiles/global_mapping_node.dir/src/global_mapping.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/pc_handler_node.dir/src/pc_handler_node.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/global_mapping_node.dir/src/bayes_filter.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/pc_handler_node.dir/src/pc_handler.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/global_mapping_node.dir/src/global_mapping_node.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/local_mapping_node.dir/src/local_mapping_node.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/local_mapping_node.dir/src/local_mapping.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/local_mapping_node.dir/src/bayes_filter.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable local_mapping_node[0m
+[ 81%] Built target local_mapping_node
+[ 90%] [32m[1mLinking CXX executable global_mapping_node[0m
+[ 90%] Built target global_mapping_node
+[100%] [32m[1mLinking CXX executable pc_handler_node[0m
+[100%] Built target pc_handler_node
+-- Install configuration: ""
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/global_mapping_node
+-- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/global_mapping_node" to ""
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/local_mapping_node
+-- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/local_mapping_node" to ""
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/pc_handler_node
+-- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/mapping/lib/mapping/pc_handler_node" to ""
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/launch
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/launch/mapping.launch.py
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/environment/path.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.bash
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.zsh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/local_setup.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/ament_index/resource_index/packages/mapping
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/cmake/mappingConfig.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/mapping/share/mapping/package.xml

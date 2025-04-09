@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8ff9b7d52bb821348353.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "grid_map_rviz_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "grid_map_rviz_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grid_map_rviz_plugin-Release-aa7547b733ad9b4adeac.json",
+					"name" : "grid_map_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grid_map_rviz_plugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grid_map_rviz_plugin_autogen-Release-3f8d76750c9dc32f8c9e.json",
+					"name" : "grid_map_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grid_map_rviz_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grid_map_rviz_plugin_uninstall-Release-739c830792a4a78838fb.json",
+					"name" : "grid_map_rviz_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1b487a3f81764dbca2f7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/williamfbx/SLAM/slam_ws/build/grid_map_rviz_plugin",
+		"source" : "/home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_rviz_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

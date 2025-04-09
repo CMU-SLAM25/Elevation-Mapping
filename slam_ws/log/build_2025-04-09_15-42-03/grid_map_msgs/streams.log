@@ -1,0 +1,400 @@
+[0.008s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_msgs -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.439s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.440s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.467s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.527s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.538s] -- Setting build type to Release as none was specified.
+[0.844s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.433s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.444s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.503s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.504s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.504s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.504s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.531s] -- Found PythonExtra: .so  
+[2.613s] -- Configuring done
+[2.663s] -- Generating done
+[2.680s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_msgs
+[2.702s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_msgs -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs
+[2.702s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_msgs -- -j12 -l12
+[2.765s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.770s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.804s] [  2%] Built target ament_cmake_python_copy_grid_map_msgs
+[3.096s] running egg_info
+[3.097s] creating grid_map_msgs.egg-info
+[3.098s] writing grid_map_msgs.egg-info/PKG-INFO
+[3.101s] writing dependency_links to grid_map_msgs.egg-info/dependency_links.txt
+[3.101s] writing top-level names to grid_map_msgs.egg-info/top_level.txt
+[3.102s] writing manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[3.102s] reading manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[3.102s] writing manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[3.136s] [  2%] Built target ament_cmake_python_build_grid_map_msgs_egg
+[3.920s] [  2%] Built target grid_map_msgs__cpp
+[3.932s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.933s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.933s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.056s] [  8%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/msg/detail/grid_map__functions.c.o[0m
+[4.059s] [  9%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/msg/detail/grid_map_info__functions.c.o[0m
+[4.062s] [ 11%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/get_grid_map__functions.c.o[0m
+[4.063s] [ 12%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/process_file__functions.c.o[0m
+[4.064s] [ 14%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/set_grid_map__functions.c.o[0m
+[4.069s] [ 15%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/get_grid_map_info__functions.c.o[0m
+[4.379s] [ 16%] [32m[1mLinking C shared library libgrid_map_msgs__rosidl_generator_c.so[0m
+[4.424s] [ 16%] Built target grid_map_msgs__rosidl_generator_c
+[4.432s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.432s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.432s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.722s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/msg/grid_map_info__type_support.cpp.o[0m
+[4.723s] [ 23%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/get_grid_map__type_support.cpp.o[0m
+[4.736s] [ 26%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/msg/grid_map__type_support.cpp.o[0m
+[4.737s] [ 26%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/get_grid_map_info__type_support.cpp.o[0m
+[4.737s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/set_grid_map__type_support.cpp.o[0m
+[4.737s] [ 29%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/process_file__type_support.cpp.o[0m
+[4.991s] [ 30%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/msg/detail/grid_map_info__type_support.cpp.o[0m
+[4.995s] [ 32%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/msg/detail/grid_map__type_support.cpp.o[0m
+[5.000s] [ 33%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/msg/detail/dds_fastrtps/grid_map_info__type_support.cpp.o[0m
+[5.126s] [ 35%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/msg/detail/dds_fastrtps/grid_map__type_support.cpp.o[0m
+[5.173s] [ 36%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/set_grid_map__type_support.cpp.o[0m
+[5.184s] [ 38%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/set_grid_map__type_support.cpp.o[0m
+[5.185s] [ 39%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/get_grid_map_info__type_support.cpp.o[0m
+[5.187s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/get_grid_map__type_support.cpp.o[0m
+[5.375s] [ 42%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/msg/grid_map_info__type_support.cpp.o[0m
+[5.390s] [ 43%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_cpp.so[0m
+[5.449s] [ 45%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/msg/grid_map__type_support.cpp.o[0m
+[5.484s] [ 45%] Built target grid_map_msgs__rosidl_typesupport_cpp
+[5.501s] [ 46%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/process_file__type_support.cpp.o[0m
+[5.525s] [ 47%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/set_grid_map__type_support.cpp.o[0m
+[5.622s] [ 49%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/get_grid_map__type_support.cpp.o[0m
+[5.650s] [ 50%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/msg/detail/grid_map_info__type_support.c.o[0m
+[5.675s] [ 52%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/get_grid_map_info__type_support.cpp.o[0m
+[5.704s] [ 53%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/msg/detail/grid_map__type_support.c.o[0m
+[5.755s] [ 54%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/set_grid_map__type_support.c.o[0m
+[5.755s] [ 56%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/get_grid_map__type_support.cpp.o[0m
+[5.755s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/process_file__type_support.cpp.o[0m
+[5.770s] [ 59%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/get_grid_map__type_support.c.o[0m
+[5.782s] [ 60%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/detail/grid_map_info__type_support_c.cpp.o[0m
+[5.815s] [ 61%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/detail/grid_map__type_support_c.cpp.o[0m
+[5.822s] [ 63%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/set_grid_map__type_support_c.cpp.o[0m
+[5.833s] [ 64%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/get_grid_map__type_support_c.cpp.o[0m
+[5.844s] [ 66%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_c.so[0m
+[5.859s] [ 67%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/get_grid_map_info__type_support.c.o[0m
+[5.897s] [ 69%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/get_grid_map_info__type_support.cpp.o[0m
+[5.948s] [ 69%] Built target grid_map_msgs__rosidl_typesupport_c
+[5.959s] [ 70%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/process_file__type_support.c.o[0m
+[5.971s] [ 71%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/process_file__type_support.cpp.o[0m
+[6.047s] [ 73%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/get_grid_map_info__type_support_c.cpp.o[0m
+[6.064s] [ 74%] [32m[1mLinking C shared library libgrid_map_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.091s] [ 76%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/process_file__type_support_c.cpp.o[0m
+[6.153s] [ 76%] Built target grid_map_msgs__rosidl_typesupport_introspection_c
+[6.164s] [ 77%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.291s] [ 77%] Built target grid_map_msgs__rosidl_typesupport_introspection_cpp
+[6.613s] [ 78%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.627s] [ 80%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.697s] [ 80%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c
+[6.704s] [ 80%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_cpp
+[6.726s] [ 80%] Built target grid_map_msgs
+[6.750s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.638s] [ 81%] Built target grid_map_msgs__py
+[7.659s] [ 83%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_set_grid_map_s.c.o[0m
+[7.661s] [ 85%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_get_grid_map_info_s.c.o[0m
+[7.661s] [ 85%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_get_grid_map_s.c.o[0m
+[7.661s] [ 87%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/msg/_grid_map_info_s.c.o[0m
+[7.661s] [ 88%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/msg/_grid_map_s.c.o[0m
+[7.663s] [ 90%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_process_file_s.c.o[0m
+[7.871s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/libgrid_map_msgs__rosidl_generator_py.so[0m
+[7.909s] [ 91%] Built target grid_map_msgs__rosidl_generator_py
+[7.925s] [ 92%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.931s] [ 95%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.931s] [ 95%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.076s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.124s] [ 97%] Built target grid_map_msgs__rosidl_typesupport_c__pyext
+[8.126s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.164s] [ 98%] Built target grid_map_msgs__rosidl_typesupport_introspection_c__pyext
+[8.193s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.228s] [100%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.238s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_msgs -- -j12 -l12
+[8.240s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_msgs
+[8.249s] -- Install configuration: "Release"
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/ament_index/resource_index/rosidl_interfaces/grid_map_msgs
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map.h
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map_info.h
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/process_file.h
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.h
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__struct.h
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__functions.h
+[8.250s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__functions.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__functions.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__functions.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__struct.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__struct.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__struct.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.h
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__functions.c
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__functions.c
+[8.251s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__functions.c
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__functions.c
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/set_grid_map.h
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map.h
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.h
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__struct.h
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__struct.h
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__functions.h
+[8.252s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__functions.h
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__functions.c
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__functions.c
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.h
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map_info.h
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.sh
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.dsv
+[8.253s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so
+[8.253s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so" to ""
+[8.253s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs
+[8.253s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv
+[8.254s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_c.h
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_c.h
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_c.h
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_c.h
+[8.254s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg
+[8.254s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_c.h
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_c.h
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.254s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so
+[8.255s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.255s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs
+[8.255s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map_info.hpp
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map.hpp
+[8.255s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.hpp
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__struct.hpp
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__struct.hpp
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__builder.hpp
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__traits.hpp
+[8.255s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__traits.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__builder.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__struct.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__struct.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__builder.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__traits.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__builder.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__traits.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/set_grid_map.hpp
+[8.256s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/process_file.hpp
+[8.257s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map_info.hpp
+[8.257s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__struct.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__traits.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__traits.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__builder.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__builder.hpp
+[8.257s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__struct.hpp
+[8.258s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs
+[8.258s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv
+[8.258s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/dds_fastrtps
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_cpp.hpp
+[8.258s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.258s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/dds_fastrtps
+[8.258s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.259s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.259s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs
+[8.259s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv
+[8.259s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.c
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_c.h
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.c
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.c
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_c.h
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.c
+[8.259s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_c.h
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_c.h
+[8.260s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg
+[8.260s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.c
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_c.h
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_c.h
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.c
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so
+[8.260s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.260s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so
+[8.260s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so" to ""
+[8.260s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs
+[8.260s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv
+[8.260s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.cpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.cpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_cpp.hpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.cpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.cpp
+[8.261s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg
+[8.261s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.cpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_cpp.hpp
+[8.261s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.cpp
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so
+[8.262s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so
+[8.262s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so" to ""
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.sh
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.dsv
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.1-py3.10.egg-info
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info_s.c
+[8.262s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file_s.c
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map_s.c
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_s.c
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map.py
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info.py
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map.py
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file.py
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/__init__.py
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/libgrid_map_msgs__rosidl_generator_py.so
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_c.c
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.263s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/__init__.py
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map.py
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info.py
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info_s.c
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_s.c
+[8.264s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/__init__.py
+[8.289s] Listing '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs'...
+[8.289s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/__init__.py'...
+[8.289s] Listing '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg'...
+[8.289s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/__init__.py'...
+[8.289s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map.py'...
+[8.289s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info.py'...
+[8.289s] Listing '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv'...
+[8.289s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/__init__.py'...
+[8.290s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map.py'...
+[8.290s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info.py'...
+[8.290s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file.py'...
+[8.290s] Compiling '/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map.py'...
+[8.293s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.293s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.293s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.293s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.293s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.293s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.293s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_py.so
+[8.293s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_py.so" to ""
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.idl
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.idl
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.idl
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.idl
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.idl
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.idl
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.msg
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.msg
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.srv
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Request.msg
+[8.294s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Response.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.srv
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Request.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Response.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.srv
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Request.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Response.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.srv
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Request.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Response.msg
+[8.295s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/ament_index/resource_index/package_run_dependencies/grid_map_msgs
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/ament_index/resource_index/parent_prefix_path/grid_map_msgs
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.sh
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.dsv
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/path.sh
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/environment/path.dsv
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.bash
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.sh
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.zsh
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.dsv
+[8.296s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/package.dsv
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/ament_index/resource_index/packages/grid_map_msgs
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cExport.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cExport-release.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cppExport.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport.cmake
+[8.297s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport-release.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport-release.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_pyExport.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_pyExport-release.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake-extras.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.298s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.299s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.299s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.299s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.299s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.299s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig.cmake
+[8.300s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig-version.cmake
+[8.300s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/package.xml
+[8.300s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_msgs

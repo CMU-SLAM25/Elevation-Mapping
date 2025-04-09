@@ -1,0 +1,85 @@
+[0.019s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_loader': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_loader -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/grid_map_loader
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.480s] -- Found grid_map_msgs: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[0.537s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.546s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found grid_map_ros: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/share/grid_map_ros/cmake)
+[0.819s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.822s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.843s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.892s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.894s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.909s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.916s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.926s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.939s] -- Looking for pthread.h
+[0.990s] -- Looking for pthread.h - found
+[0.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.047s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.049s] -- Found Threads: TRUE  
+[1.161s] -- Setting build type to Release as none was specified.
+[1.189s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.254s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.254s] -- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_loader/include
+[1.255s] -- Configured cppcheck exclude dirs and/or files: 
+[1.255s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'uncrustify' to check C / C++ code style
+[1.256s] -- Configured uncrustify additional arguments: 
+[1.256s] -- Added test 'xmllint' to check XML markup files
+[1.258s] -- Configuring done
+[1.298s] -- Generating done
+[1.305s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_loader
+[1.315s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_loader' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_loader -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/grid_map_loader
+[1.316s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_loader': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_loader -- -j12 -l12
+[1.363s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_loader_core.dir/src/GridMapLoader.cpp.o[0m
+[27.470s] [ 50%] [32m[1mLinking CXX shared library libgrid_map_loader_core.so[0m
+[28.090s] [ 50%] Built target grid_map_loader_core
+[28.152s] [ 75%] [32mBuilding CXX object CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.o[0m
+[37.047s] [100%] [32m[1mLinking CXX executable grid_map_loader[0m
+[38.121s] [100%] Built target grid_map_loader
+[38.156s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_loader' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_loader -- -j12 -l12
+[38.161s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_loader': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_loader
+[38.181s] -- Install configuration: "Release"
+[38.182s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/lib/libgrid_map_loader_core.so
+[38.185s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_loader/lib/libgrid_map_loader_core.so" to ""
+[38.185s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/lib/grid_map_loader/grid_map_loader
+[38.185s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_loader/lib/grid_map_loader/grid_map_loader" to ""
+[38.185s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/environment/library_path.sh
+[38.185s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/environment/library_path.dsv
+[38.185s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/ament_index/resource_index/package_run_dependencies/grid_map_loader
+[38.185s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/ament_index/resource_index/parent_prefix_path/grid_map_loader
+[38.186s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/environment/ament_prefix_path.sh
+[38.187s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/environment/ament_prefix_path.dsv
+[38.187s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/environment/path.sh
+[38.187s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/environment/path.dsv
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/local_setup.bash
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/local_setup.sh
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/local_setup.zsh
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/local_setup.dsv
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/package.dsv
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/ament_index/resource_index/packages/grid_map_loader
+[38.188s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.189s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.189s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/cmake/ament_cmake_export_libraries-extras.cmake
+[38.192s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/cmake/grid_map_loaderConfig.cmake
+[38.192s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/cmake/grid_map_loaderConfig-version.cmake
+[38.195s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_loader/share/grid_map_loader/package.xml
+[38.198s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_loader' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_loader

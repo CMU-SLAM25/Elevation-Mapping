@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target localization_node[0m
+[0.074s] [ 33%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization.cpp.o[0m
+[1.735s] [01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:[m[K In member function ‘[01m[Kvoid Localization::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.735s] [01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:22:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.735s]    22 | alization::imageCallback([01;35m[Kconst sensor_msgs::msg::Image::SharedPtr msg[m[K){
+[1.735s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.735s] 
+[5.575s] [ 66%] [32m[1mLinking CXX executable localization_node[0m
+[5.887s] [100%] Built target localization_node
+[5.896s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[5.898s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization
+[5.908s] -- Install configuration: ""
+[5.909s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/lib/localization/localization_node
+[5.913s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/localization/lib/localization/localization_node" to ""
+[5.913s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/include/localization
+[5.913s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/include/localization/localization.hpp
+[5.913s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/launch
+[5.914s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/launch/localization.launch.py
+[5.914s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[5.915s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[5.915s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+[5.915s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+[5.915s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/path.sh
+[5.915s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/path.dsv
+[5.915s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.bash
+[5.916s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.sh
+[5.916s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.zsh
+[5.916s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.dsv
+[5.916s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.dsv
+[5.916s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/packages/localization
+[5.916s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+[5.917s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[5.917s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.xml
+[5.918s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization

@@ -1,0 +1,78 @@
+[0.012s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_octomap -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/grid_map_octomap
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.229s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.243s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.472s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.472s] -- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+[0.480s] -- Found Octomap (version 1.9.8): /opt/ros/humble/include
+[0.482s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.550s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.551s] -- Looking for pthread.h
+[0.626s] -- Looking for pthread.h - found
+[0.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.696s] -- Found Threads: TRUE  
+[0.699s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.699s] -- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_octomap/include
+[0.700s] -- Configured cppcheck exclude dirs and/or files: 
+[0.700s] -- Added test 'lint_cmake' to check CMake code style
+[0.701s] -- Added test 'uncrustify' to check C / C++ code style
+[0.701s] -- Configured uncrustify additional arguments: 
+[0.701s] -- Added test 'xmllint' to check XML markup files
+[0.703s] -- Configuring done
+[0.710s] -- Generating done
+[0.712s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap
+[0.715s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_octomap -DCMAKE_INSTALL_PREFIX=/home/williamfbx/SLAM/slam_ws/install/grid_map_octomap
+[0.716s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap -- -j12 -l12
+[0.756s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.760s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_octomap.dir/src/GridMapOctomapConverter.cpp.o[0m
+[0.763s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.090s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.133s] [ 44%] Built target gtest_main
+[2.977s] [ 55%] [32m[1mLinking CXX static library libgrid_map_octomap.a[0m
+[3.018s] [ 55%] Built target grid_map_octomap
+[4.164s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.203s] [ 66%] Built target gtest
+[4.218s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/test_grid_map_octomap.cpp.o[0m
+[4.220s] [ 88%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/OctomapConverterTest.cpp.o[0m
+[6.169s] [100%] [32m[1mLinking CXX executable grid_map_octomap-test[0m
+[6.298s] [100%] Built target grid_map_octomap-test
+[6.307s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap -- -j12 -l12
+[6.308s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap
+[6.317s] -- Install configuration: ""
+[6.317s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/lib/libgrid_map_octomap.a
+[6.317s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap/grid_map_octomap.hpp
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap/GridMapOctomapConverter.hpp
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.sh
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.dsv
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/package_run_dependencies/grid_map_octomap
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/parent_prefix_path/grid_map_octomap
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.sh
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.dsv
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/path.sh
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/path.dsv
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.bash
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.sh
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.zsh
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.dsv
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/package.dsv
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/packages/grid_map_octomap
+[6.318s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.319s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.319s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_libraries-extras.cmake
+[6.319s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig.cmake
+[6.319s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig-version.cmake
+[6.319s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/package.xml
+[6.321s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/home/williamfbx/SLAM/slam_ws/install/visualization:/home/williamfbx/SLAM/slam_ws/install/launcher:/home/williamfbx/SLAM/slam_ws/install/sensing:/home/williamfbx/SLAM/slam_ws/install/realsense2_description:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera:/home/williamfbx/SLAM/slam_ws/install/realsense2_camera_msgs:/home/williamfbx/SLAM/slam_ws/install/realsense:/home/williamfbx/SLAM/slam_ws/install/mapping:/home/williamfbx/SLAM/slam_ws/install/localization:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap
