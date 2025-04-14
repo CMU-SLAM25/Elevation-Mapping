@@ -22,10 +22,17 @@ find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(pcl_conversions REQUIRED)
+find_package(pcl_ros REQUIRED)
+find_package(PCL REQUIRED COMPONENTS common io filters registration kdtree features)
 
 include_directories(include)
-
 include_directories(${EIGEN3_INCLUDE_DIR})
+include_directories(
+  include
+  ${EIGEN3_INCLUDE_DIR}
+  ${PCL_INCLUDE_DIRS}
+)
 
 add_executable(localization_node 
   src/localization.cpp
@@ -37,6 +44,11 @@ ament_target_dependencies(localization_node
   sensor_msgs
   cv_bridge
   tf2_ros
+  pcl_ros
+  pcl_conversions
+)
+target_link_libraries(localization_node
+  ${PCL_LIBRARIES}
 )
 
 if(BUILD_TESTING)

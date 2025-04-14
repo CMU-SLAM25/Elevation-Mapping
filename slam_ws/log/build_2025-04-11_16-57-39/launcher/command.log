@@ -1,0 +1,4 @@
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/launcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/launcher -- -j12 -l12
+Invoked command in '/home/williamfbx/SLAM/slam_ws/build/launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/launcher -- -j12 -l12
+Invoking command in '/home/williamfbx/SLAM/slam_ws/build/launcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/launcher
+Invoked command in '/home/williamfbx/SLAM/slam_ws/build/launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/launcher

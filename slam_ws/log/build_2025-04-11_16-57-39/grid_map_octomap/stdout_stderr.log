@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+-- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+-- Found Octomap (version 1.9.8): /opt/ros/humble/include
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_octomap/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap
+[35m[1mConsolidate compiler generated dependencies of target grid_map_octomap[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 22%] Built target gtest_main
+[ 33%] [32mBuilding CXX object CMakeFiles/grid_map_octomap.dir/src/GridMapOctomapConverter.cpp.o[0m
+[ 55%] Built target gtest
+[ 66%] [32m[1mLinking CXX static library libgrid_map_octomap.a[0m
+[ 66%] Built target grid_map_octomap
+[35m[1mConsolidate compiler generated dependencies of target grid_map_octomap-test[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/OctomapConverterTest.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable grid_map_octomap-test[0m
+[100%] Built target grid_map_octomap-test
+-- Install configuration: ""
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/lib/libgrid_map_octomap.a
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap/grid_map_octomap.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap/GridMapOctomapConverter.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/package_run_dependencies/grid_map_octomap
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/parent_prefix_path/grid_map_octomap
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/path.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.bash
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.sh
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.zsh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/package.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/packages/grid_map_octomap
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig-version.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/package.xml

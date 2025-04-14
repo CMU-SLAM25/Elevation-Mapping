@@ -1,0 +1,170 @@
+[0.029s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_filters': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_filters -- -j12 -l12
+[0.076s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.253s] -- Found filters: 2.1.0 (/opt/ros/humble/share/filters/cmake)
+[0.255s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.255s] -- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+[0.258s] -- Found grid_map_msgs: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[0.295s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.299s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.308s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.417s] -- Found grid_map_ros: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/share/grid_map_ros/cmake)
+[0.526s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.528s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.557s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.570s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.597s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.608s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.333s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.495s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.505s] -- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_filters/include
+[1.505s] -- Configured cppcheck exclude dirs and/or files: 
+[1.510s] -- Added test 'lint_cmake' to check CMake code style
+[1.518s] -- Added test 'uncrustify' to check C / C++ code style
+[1.518s] -- Configured uncrustify additional arguments: 
+[1.518s] -- Added test 'xmllint' to check XML markup files
+[1.528s] -- Configuring done
+[3.008s] -- Generating done
+[3.244s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_filters
+[3.342s] [35m[1mConsolidate compiler generated dependencies of target threshold_filter[0m
+[3.345s] [35m[1mConsolidate compiler generated dependencies of target mean_in_radius_filter[0m
+[3.345s] [35m[1mConsolidate compiler generated dependencies of target min_in_radius_filter[0m
+[3.348s] [35m[1mConsolidate compiler generated dependencies of target curvature_filter[0m
+[3.355s] [35m[1mConsolidate compiler generated dependencies of target math_expression_filter[0m
+[3.358s] [35m[1mConsolidate compiler generated dependencies of target normal_color_map_filter[0m
+[3.367s] [35m[1mConsolidate compiler generated dependencies of target light_intensity_filter[0m
+[3.368s] [35m[1mConsolidate compiler generated dependencies of target normal_vectors_filter[0m
+[3.376s] [35m[1mConsolidate compiler generated dependencies of target duplication_filter[0m
+[3.387s] [35m[1mConsolidate compiler generated dependencies of target sliding_window_math_expression_filter[0m
+[3.401s] [  3%] [32mBuilding CXX object CMakeFiles/threshold_filter.dir/src/ThresholdFilter.cpp.o[0m
+[3.401s] [35m[1mConsolidate compiler generated dependencies of target deletion_filter[0m
+[3.402s] [35m[1mConsolidate compiler generated dependencies of target color_fill_filter[0m
+[3.419s] [  6%] [32mBuilding CXX object CMakeFiles/mean_in_radius_filter.dir/src/MeanInRadiusFilter.cpp.o[0m
+[3.430s] [  9%] [32mBuilding CXX object CMakeFiles/min_in_radius_filter.dir/src/MinInRadiusFilter.cpp.o[0m
+[3.438s] [ 12%] [32mBuilding CXX object CMakeFiles/math_expression_filter.dir/src/MathExpressionFilter.cpp.o[0m
+[3.438s] [ 18%] [32mBuilding CXX object CMakeFiles/normal_color_map_filter.dir/src/NormalColorMapFilter.cpp.o[0m
+[3.446s] [ 15%] [32mBuilding CXX object CMakeFiles/curvature_filter.dir/src/CurvatureFilter.cpp.o[0m
+[3.446s] [ 21%] [32mBuilding CXX object CMakeFiles/normal_vectors_filter.dir/src/NormalVectorsFilter.cpp.o[0m
+[3.453s] [ 25%] [32mBuilding CXX object CMakeFiles/light_intensity_filter.dir/src/LightIntensityFilter.cpp.o[0m
+[3.471s] [ 28%] [32mBuilding CXX object CMakeFiles/duplication_filter.dir/src/DuplicationFilter.cpp.o[0m
+[3.481s] [ 31%] [32mBuilding CXX object CMakeFiles/sliding_window_math_expression_filter.dir/src/SlidingWindowMathExpressionFilter.cpp.o[0m
+[3.488s] [ 34%] [32mBuilding CXX object CMakeFiles/deletion_filter.dir/src/DeletionFilter.cpp.o[0m
+[3.523s] [ 37%] [32mBuilding CXX object CMakeFiles/color_fill_filter.dir/src/ColorFillFilter.cpp.o[0m
+[58.735s] [ 40%] [32m[1mLinking CXX shared library libcurvature_filter.so[0m
+[59.087s] [ 40%] Built target curvature_filter
+[74.930s] [ 43%] [32m[1mLinking CXX shared library libcolor_fill_filter.so[0m
+[75.307s] [ 43%] Built target color_fill_filter
+[75.580s] [ 46%] [32m[1mLinking CXX shared library libduplication_filter.so[0m
+[75.911s] [ 46%] Built target duplication_filter
+[76.452s] [ 50%] [32m[1mLinking CXX shared library libmean_in_radius_filter.so[0m
+[76.959s] [ 50%] Built target mean_in_radius_filter
+[77.139s] [ 53%] [32m[1mLinking CXX shared library libthreshold_filter.so[0m
+[77.575s] [ 56%] [32m[1mLinking CXX shared library libnormal_color_map_filter.so[0m
+[77.624s] [ 56%] Built target threshold_filter
+[77.650s] [ 59%] [32m[1mLinking CXX shared library libdeletion_filter.so[0m
+[77.980s] [ 59%] Built target deletion_filter
+[78.010s] [ 59%] Built target normal_color_map_filter
+[79.075s] [ 62%] [32m[1mLinking CXX shared library liblight_intensity_filter.so[0m
+[79.301s] [ 62%] Built target light_intensity_filter
+[83.820s] [ 65%] [32m[1mLinking CXX shared library libmin_in_radius_filter.so[0m
+[84.167s] [ 65%] Built target min_in_radius_filter
+[86.746s] [ 68%] [32m[1mLinking CXX shared library libnormal_vectors_filter.so[0m
+[87.067s] [ 68%] Built target normal_vectors_filter
+[144.638s] [ 71%] [32m[1mLinking CXX shared library libmath_expression_filter.so[0m
+[144.791s] [ 71%] Built target math_expression_filter
+[144.802s] [35m[1mConsolidate compiler generated dependencies of target buffer_normalizer_filter[0m
+[144.803s] [35m[1mConsolidate compiler generated dependencies of target set_basic_layers_filter[0m
+[144.803s] [35m[1mConsolidate compiler generated dependencies of target color_blending_filter[0m
+[144.805s] [35m[1mConsolidate compiler generated dependencies of target color_map_filter[0m
+[144.820s] [ 78%] [32mBuilding CXX object CMakeFiles/color_blending_filter.dir/src/ColorBlendingFilter.cpp.o[0m
+[144.820s] [ 78%] [32mBuilding CXX object CMakeFiles/set_basic_layers_filter.dir/src/SetBasicLayersFilter.cpp.o[0m
+[144.824s] [ 81%] [32mBuilding CXX object CMakeFiles/buffer_normalizer_filter.dir/src/BufferNormalizerFilter.cpp.o[0m
+[144.829s] [ 84%] [32mBuilding CXX object CMakeFiles/color_map_filter.dir/src/ColorMapFilter.cpp.o[0m
+[146.638s] [ 87%] [32m[1mLinking CXX shared library libsliding_window_math_expression_filter.so[0m
+[146.946s] [ 87%] Built target sliding_window_math_expression_filter
+[166.803s] [ 90%] [32m[1mLinking CXX shared library libcolor_map_filter.so[0m
+[167.124s] [ 90%] Built target color_map_filter
+[167.838s] [ 93%] [32m[1mLinking CXX shared library libcolor_blending_filter.so[0m
+[168.032s] [ 93%] Built target color_blending_filter
+[168.819s] [ 96%] [32m[1mLinking CXX shared library libbuffer_normalizer_filter.so[0m
+[168.857s] [100%] [32m[1mLinking CXX shared library libset_basic_layers_filter.so[0m
+[168.965s] [100%] Built target buffer_normalizer_filter
+[168.997s] [100%] Built target set_basic_layers_filter
+[169.009s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_filters' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_filters -- -j12 -l12
+[169.010s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_filters': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_filters
+[169.019s] -- Install configuration: "Release"
+[169.020s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libthreshold_filter.so
+[169.021s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libthreshold_filter.so" to ""
+[169.021s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libmin_in_radius_filter.so
+[169.022s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libmin_in_radius_filter.so" to ""
+[169.023s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libmean_in_radius_filter.so
+[169.023s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libmean_in_radius_filter.so" to ""
+[169.024s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libnormal_vectors_filter.so
+[169.024s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libnormal_vectors_filter.so" to ""
+[169.025s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcurvature_filter.so
+[169.025s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcurvature_filter.so" to ""
+[169.026s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libnormal_color_map_filter.so
+[169.026s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libnormal_color_map_filter.so" to ""
+[169.026s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/liblight_intensity_filter.so
+[169.027s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/liblight_intensity_filter.so" to ""
+[169.028s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libmath_expression_filter.so
+[169.028s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libmath_expression_filter.so" to ""
+[169.029s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libsliding_window_math_expression_filter.so
+[169.029s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libsliding_window_math_expression_filter.so" to ""
+[169.030s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libduplication_filter.so
+[169.030s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libduplication_filter.so" to ""
+[169.031s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libdeletion_filter.so
+[169.031s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libdeletion_filter.so" to ""
+[169.032s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcolor_fill_filter.so
+[169.032s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcolor_fill_filter.so" to ""
+[169.033s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcolor_map_filter.so
+[169.033s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcolor_map_filter.so" to ""
+[169.034s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcolor_blending_filter.so
+[169.034s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libcolor_blending_filter.so" to ""
+[169.035s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libset_basic_layers_filter.so
+[169.035s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libset_basic_layers_filter.so" to ""
+[169.036s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libbuffer_normalizer_filter.so
+[169.036s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_filters/lib/libbuffer_normalizer_filter.so" to ""
+[169.036s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters
+[169.036s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/DuplicationFilter.hpp
+[169.036s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/MeanInRadiusFilter.hpp
+[169.036s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/ColorMapFilter.hpp
+[169.036s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/SetBasicLayersFilter.hpp
+[169.036s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/NormalColorMapFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/LightIntensityFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/CurvatureFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/ColorFillFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/DeletionFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/SlidingWindowMathExpressionFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/MinInRadiusFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/BufferNormalizerFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/MathExpressionFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/ThresholdFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/ColorBlendingFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/include/grid_map_filters/NormalVectorsFilter.hpp
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/filter_plugins.xml
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/environment/library_path.sh
+[169.037s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/environment/library_path.dsv
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/filter_plugins.xml
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/ament_index/resource_index/package_run_dependencies/grid_map_filters
+[169.037s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/ament_index/resource_index/parent_prefix_path/grid_map_filters
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/environment/ament_prefix_path.sh
+[169.037s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/environment/ament_prefix_path.dsv
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/environment/path.sh
+[169.037s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/environment/path.dsv
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/local_setup.bash
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/local_setup.sh
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/local_setup.zsh
+[169.037s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/local_setup.dsv
+[169.037s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/package.dsv
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/ament_index/resource_index/packages/grid_map_filters
+[169.037s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/ament_index/resource_index/filters__pluginlib__plugin/grid_map_filters
+[169.038s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[169.038s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[169.038s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[169.038s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/cmake/grid_map_filtersConfig.cmake
+[169.038s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/cmake/grid_map_filtersConfig-version.cmake
+[169.038s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_filters/share/grid_map_filters/package.xml
+[169.039s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_filters' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_filters

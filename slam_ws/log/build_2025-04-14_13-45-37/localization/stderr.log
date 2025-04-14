@@ -1,0 +1,19 @@
+[33mCMake Warning (dev) at CMakeLists.txt:27 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:[m[K In member function ‘[01m[Kvoid Localization::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/williamfbx/SLAM/slam_ws/src/localization/src/localization.cpp:94:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransformed_pointcloud_publisher_[m[K’ was not declared in this scope
+   94 |         [01;31m[Ktransformed_pointcloud_publisher_[m[K->publish(result_msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/localization_node.dir/build.make:76: CMakeFiles/localization_node.dir/src/localization.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/localization_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,63 @@
+[0.017s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_sdf': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_sdf -- -j12 -l12
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.165s] -- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+[0.181s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.191s] -- looking for PCL_COMMON
+[0.193s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.258s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.265s] -- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_sdf/include
+[0.265s] -- Configured cppcheck exclude dirs and/or files: 
+[0.266s] -- Added test 'lint_cmake' to check CMake code style
+[0.266s] -- Added test 'uncrustify' to check C / C++ code style
+[0.267s] -- Configured uncrustify additional arguments: 
+[0.267s] -- Added test 'xmllint' to check XML markup files
+[0.269s] -- Configuring done
+[0.278s] -- Generating done
+[0.281s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_sdf
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target grid_map_sdf[0m
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.317s] [ 22%] Built target gtest_main
+[0.319s] [ 33%] [32mBuilding CXX object CMakeFiles/grid_map_sdf.dir/src/SignedDistanceField.cpp.o[0m
+[0.322s] [ 55%] Built target gtest
+[3.622s] [ 66%] [32m[1mLinking CXX static library libgrid_map_sdf.a[0m
+[3.652s] [ 66%] Built target grid_map_sdf
+[3.664s] [35m[1mConsolidate compiler generated dependencies of target grid_map_sdf-test[0m
+[3.681s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_sdf-test.dir/test/SignedDistanceFieldTest.cpp.o[0m
+[10.333s] [ 88%] [32m[1mLinking CXX executable grid_map_sdf-test[0m
+[10.484s] [100%] Built target grid_map_sdf-test
+[10.498s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_sdf' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_sdf -- -j12 -l12
+[10.500s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_sdf': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_sdf
+[10.510s] -- Install configuration: "Release"
+[10.510s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/lib/libgrid_map_sdf.a
+[10.510s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf
+[10.510s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/image.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/pnmfile.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/dt.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/misc.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imconv.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imutil.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
+[10.511s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.sh
+[10.512s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.dsv
+[10.512s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/ament_index/resource_index/package_run_dependencies/grid_map_sdf
+[10.512s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/ament_index/resource_index/parent_prefix_path/grid_map_sdf
+[10.512s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.sh
+[10.512s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.dsv
+[10.512s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/path.sh
+[10.512s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/path.dsv
+[10.512s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.bash
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.sh
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.zsh
+[10.513s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.dsv
+[10.513s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/package.dsv
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/ament_index/resource_index/packages/grid_map_sdf
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_libraries-extras.cmake
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig.cmake
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig-version.cmake
+[10.513s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/package.xml
+[10.515s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_sdf' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_sdf

@@ -1,0 +1,59 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+-- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- looking for PCL_COMMON
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_sdf/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_sdf
+[35m[1mConsolidate compiler generated dependencies of target grid_map_sdf[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 22%] Built target gtest_main
+[ 33%] [32mBuilding CXX object CMakeFiles/grid_map_sdf.dir/src/SignedDistanceField.cpp.o[0m
+[ 55%] Built target gtest
+[ 66%] [32m[1mLinking CXX static library libgrid_map_sdf.a[0m
+[ 66%] Built target grid_map_sdf
+[35m[1mConsolidate compiler generated dependencies of target grid_map_sdf-test[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/grid_map_sdf-test.dir/test/SignedDistanceFieldTest.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable grid_map_sdf-test[0m
+[100%] Built target grid_map_sdf-test
+-- Install configuration: "Release"
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/lib/libgrid_map_sdf.a
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/image.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/pnmfile.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/dt.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/misc.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imconv.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imutil.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/ament_index/resource_index/package_run_dependencies/grid_map_sdf
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/ament_index/resource_index/parent_prefix_path/grid_map_sdf
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/path.sh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/environment/path.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.bash
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.sh
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.zsh
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/local_setup.dsv
+-- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/package.dsv
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/ament_index/resource_index/packages/grid_map_sdf
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig-version.cmake
+-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_sdf/share/grid_map_sdf/package.xml

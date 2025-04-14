@@ -1,0 +1,55 @@
+[0.017s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/kindr_ros': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/kindr_ros -- -j12 -l12
+[0.060s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.329s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.334s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.346s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.472s] -- Found kindr: 1.3.24 (/home/williamfbx/SLAM/slam_ws/install/kindr/share/kindr/cmake)
+[0.476s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.602s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.621s] -- Configuring done
+[0.644s] -- Generating done
+[0.651s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/kindr_ros
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.703s] [ 18%] Built target gtest_main
+[0.710s] [ 36%] Built target gtest
+[0.726s] [35m[1mConsolidate compiler generated dependencies of target kindr_ros-test[0m
+[0.759s] [ 45%] [32mBuilding CXX object CMakeFiles/kindr_ros-test.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o[0m
+[0.759s] [ 54%] [32mBuilding CXX object CMakeFiles/kindr_ros-test.dir/test/RosGeometryMsgRotationTest.cpp.o[0m
+[0.760s] [ 63%] [32mBuilding CXX object CMakeFiles/kindr_ros-test.dir/test/RosTfPoseTest.cpp.o[0m
+[0.763s] [ 72%] [32mBuilding CXX object CMakeFiles/kindr_ros-test.dir/test/RosGeometryMsgPoseTest.cpp.o[0m
+[0.766s] [ 81%] [32mBuilding CXX object CMakeFiles/kindr_ros-test.dir/test/TfConventionTest.cpp.o[0m
+[5.509s] [ 90%] [32m[1mLinking CXX executable kindr_ros-test[0m
+[5.822s] [100%] Built target kindr_ros-test
+[5.835s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/kindr_ros' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/kindr_ros -- -j12 -l12
+[5.838s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/kindr_ros': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/kindr_ros
+[5.846s] -- Install configuration: ""
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros/RosGeometryMsgRotation.hpp
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros/RosGeometryMsgTwist.hpp
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros/RosGeometryMsgPose.hpp
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros/RosGeometryMsgPhysicalQuantities.hpp
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros/kindr_ros.hpp
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/include/kindr_ros/RosTfPose.hpp
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/ament_index/resource_index/package_run_dependencies/kindr_ros
+[5.847s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/ament_index/resource_index/parent_prefix_path/kindr_ros
+[5.847s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/environment/ament_prefix_path.sh
+[5.848s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/environment/ament_prefix_path.dsv
+[5.848s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/environment/path.sh
+[5.848s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/environment/path.dsv
+[5.848s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/local_setup.bash
+[5.848s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/local_setup.sh
+[5.848s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/local_setup.zsh
+[5.848s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/local_setup.dsv
+[5.849s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/package.dsv
+[5.849s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/ament_index/resource_index/packages/kindr_ros
+[5.849s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.849s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.849s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/cmake/kindr_rosConfig.cmake
+[5.849s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/cmake/kindr_rosConfig-version.cmake
+[5.849s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/kindr_ros/share/kindr_ros/package.xml
+[5.853s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/kindr_ros' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/kindr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/kindr_ros

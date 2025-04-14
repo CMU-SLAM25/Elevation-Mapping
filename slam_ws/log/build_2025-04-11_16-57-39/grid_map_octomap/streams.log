@@ -1,0 +1,57 @@
+[0.016s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap -- -j12 -l12
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.176s] -- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+[0.180s] -- Found Octomap (version 1.9.8): /opt/ros/humble/include
+[0.181s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.278s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.289s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.289s] -- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_octomap/include
+[0.289s] -- Configured cppcheck exclude dirs and/or files: 
+[0.290s] -- Added test 'lint_cmake' to check CMake code style
+[0.291s] -- Added test 'uncrustify' to check C / C++ code style
+[0.291s] -- Configured uncrustify additional arguments: 
+[0.292s] -- Added test 'xmllint' to check XML markup files
+[0.295s] -- Configuring done
+[0.314s] -- Generating done
+[0.318s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target grid_map_octomap[0m
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.352s] [ 22%] Built target gtest_main
+[0.352s] [ 33%] [32mBuilding CXX object CMakeFiles/grid_map_octomap.dir/src/GridMapOctomapConverter.cpp.o[0m
+[0.358s] [ 55%] Built target gtest
+[2.495s] [ 66%] [32m[1mLinking CXX static library libgrid_map_octomap.a[0m
+[2.551s] [ 66%] Built target grid_map_octomap
+[2.569s] [35m[1mConsolidate compiler generated dependencies of target grid_map_octomap-test[0m
+[2.594s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/OctomapConverterTest.cpp.o[0m
+[5.348s] [ 88%] [32m[1mLinking CXX executable grid_map_octomap-test[0m
+[5.655s] [100%] Built target grid_map_octomap-test
+[5.672s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap -- -j12 -l12
+[5.675s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap
+[5.686s] -- Install configuration: ""
+[5.686s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/lib/libgrid_map_octomap.a
+[5.687s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap
+[5.687s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap/grid_map_octomap.hpp
+[5.688s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/include/grid_map_octomap/GridMapOctomapConverter.hpp
+[5.688s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.sh
+[5.688s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.dsv
+[5.688s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/package_run_dependencies/grid_map_octomap
+[5.688s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/parent_prefix_path/grid_map_octomap
+[5.688s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.sh
+[5.688s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.dsv
+[5.688s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/path.sh
+[5.688s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/environment/path.dsv
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.bash
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.sh
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.zsh
+[5.689s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/local_setup.dsv
+[5.689s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/package.dsv
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/ament_index/resource_index/packages/grid_map_octomap
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.689s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_libraries-extras.cmake
+[5.690s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig.cmake
+[5.690s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig-version.cmake
+[5.690s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_octomap/share/grid_map_octomap/package.xml
+[5.693s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_octomap

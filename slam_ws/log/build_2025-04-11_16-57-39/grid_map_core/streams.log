@@ -1,0 +1,129 @@
+[0.016s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_core': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_core -- -j12 -l12
+[0.048s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.202s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.297s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.307s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_core/include>
+[0.307s] -- Configured cppcheck exclude dirs and/or files: 
+[0.310s] -- Added test 'lint_cmake' to check CMake code style
+[0.316s] -- Added test 'uncrustify' to check C / C++ code style
+[0.316s] -- Configured uncrustify additional arguments: 
+[0.317s] -- Added test 'xmllint' to check XML markup files
+[0.321s] -- Configuring done
+[0.334s] -- Generating done
+[0.339s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_core
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.396s] [  5%] Built target gtest
+[0.396s] [ 11%] Built target gtest_main
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target grid_map_core[0m
+[0.495s] [ 14%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o[0m
+[0.495s] [ 17%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/BufferRegion.cpp.o[0m
+[0.508s] [ 20%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMapMath.cpp.o[0m
+[0.509s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/Polygon.cpp.o[0m
+[0.510s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/GridMapIterator.cpp.o[0m
+[0.510s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/SubmapGeometry.cpp.o[0m
+[0.510s] [ 31%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o[0m
+[0.510s] [ 34%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SubmapIterator.cpp.o[0m
+[0.557s] [ 37%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/CircleIterator.cpp.o[0m
+[0.557s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/EllipseIterator.cpp.o[0m
+[0.574s] [ 42%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SpiralIterator.cpp.o[0m
+[0.574s] [ 45%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/PolygonIterator.cpp.o[0m
+[5.176s] [ 48%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/LineIterator.cpp.o[0m
+[6.384s] [ 51%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SlidingWindowIterator.cpp.o[0m
+[38.210s] [ 54%] [32m[1mLinking CXX static library libgrid_map_core.a[0m
+[38.335s] [ 54%] Built target grid_map_core
+[38.398s] [35m[1mConsolidate compiler generated dependencies of target grid_map_core-test[0m
+[38.499s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_helpers.cpp.o[0m
+[43.471s] [ 60%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EigenPluginsTest.cpp.o[0m
+[49.900s] [ 62%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SpiralIteratorTest.cpp.o[0m
+[51.969s] [ 65%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SlidingWindowIteratorTest.cpp.o[0m
+[55.398s] [ 68%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonTest.cpp.o[0m
+[58.300s] [ 71%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EllipseIteratorTest.cpp.o[0m
+[58.300s] [ 74%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/LineIteratorTest.cpp.o[0m
+[58.301s] [ 80%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SubmapIteratorTest.cpp.o[0m
+[58.301s] [ 80%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonIteratorTest.cpp.o[0m
+[61.939s] [ 85%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapIteratorTest.cpp.o[0m
+[61.939s] [ 85%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapMathTest.cpp.o[0m
+[61.939s] [ 88%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapTest.cpp.o[0m
+[62.208s] [ 91%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicInterpolationTest.cpp.o[0m
+[64.241s] [ 94%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicConvolutionInterpolationTest.cpp.o[0m
+[68.002s] [ 97%] [32m[1mLinking CXX executable grid_map_core-test[0m
+[68.108s] [100%] Built target grid_map_core-test
+[68.117s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_core -- -j12 -l12
+[68.119s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_core': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_core
+[68.126s] -- Install configuration: "Release"
+[68.126s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib/libgrid_map_core.a
+[68.126s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core
+[68.126s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core
+[68.126s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/grid_map_core.hpp
+[68.126s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/GridMapMath.hpp
+[68.126s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/Polygon.hpp
+[68.126s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/EllipseIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/SubmapIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/SlidingWindowIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/LineIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/iterators.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/CircleIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/PolygonIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/GridMapIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/SpiralIterator.hpp
+[68.127s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/GridMap.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/CubicInterpolation.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/DenseBasePlugin.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/FunctorsPlugin.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/Functors.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/gtest_eigen.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc
+[68.128s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/move_method.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/interpolationSineWorld.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator_preview.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator.gif
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.pdf
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.pdf
+[68.129s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.png
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/setposition_method.gif
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.png
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/doc/interpolationGaussWorld.gif
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/environment/library_path.sh
+[68.130s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/environment/library_path.dsv
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/ament_index/resource_index/package_run_dependencies/grid_map_core
+[68.130s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/ament_index/resource_index/parent_prefix_path/grid_map_core
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.sh
+[68.130s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.dsv
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/environment/path.sh
+[68.130s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/environment/path.dsv
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/local_setup.bash
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/local_setup.sh
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/local_setup.zsh
+[68.130s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/local_setup.dsv
+[68.130s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/package.dsv
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/ament_index/resource_index/packages/grid_map_core
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/export_grid_map_coreExport.cmake
+[68.130s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/export_grid_map_coreExport-release.cmake
+[68.131s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/grid_map_core-extras.cmake
+[68.131s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_targets-extras.cmake
+[68.131s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.131s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig.cmake
+[68.131s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig-version.cmake
+[68.131s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/package.xml
+[68.131s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_core

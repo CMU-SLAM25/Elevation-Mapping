@@ -1,0 +1,423 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (-) JobUnselected: {'identifier': 'elevation_mapping'}
+[0.000581] (-) JobUnselected: {'identifier': 'grid_map'}
+[0.000610] (-) JobUnselected: {'identifier': 'grid_map_cmake_helpers'}
+[0.000635] (-) JobUnselected: {'identifier': 'grid_map_core'}
+[0.000656] (-) JobUnselected: {'identifier': 'grid_map_costmap_2d'}
+[0.000677] (-) JobUnselected: {'identifier': 'grid_map_cv'}
+[0.000698] (-) JobUnselected: {'identifier': 'grid_map_demos'}
+[0.000720] (-) JobUnselected: {'identifier': 'grid_map_filters'}
+[0.000740] (-) JobUnselected: {'identifier': 'grid_map_loader'}
+[0.000760] (-) JobUnselected: {'identifier': 'grid_map_msgs'}
+[0.000780] (-) JobUnselected: {'identifier': 'grid_map_octomap'}
+[0.000800] (-) JobUnselected: {'identifier': 'grid_map_pcl'}
+[0.000820] (-) JobUnselected: {'identifier': 'grid_map_ros'}
+[0.000841] (-) JobUnselected: {'identifier': 'grid_map_rviz_plugin'}
+[0.000861] (-) JobUnselected: {'identifier': 'grid_map_sdf'}
+[0.000881] (-) JobUnselected: {'identifier': 'grid_map_visualization'}
+[0.000901] (-) JobUnselected: {'identifier': 'kindr'}
+[0.000922] (-) JobUnselected: {'identifier': 'kindr_msgs'}
+[0.000942] (-) JobUnselected: {'identifier': 'kindr_ros'}
+[0.000962] (-) JobUnselected: {'identifier': 'launcher'}
+[0.000982] (-) JobUnselected: {'identifier': 'mapping'}
+[0.001002] (-) JobUnselected: {'identifier': 'realsense'}
+[0.001022] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001042] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001062] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001082] (-) JobUnselected: {'identifier': 'sensing'}
+[0.001101] (-) JobUnselected: {'identifier': 'visualization'}
+[0.001124] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.001148] (localization) JobStarted: {'identifier': 'localization'}
+[0.007133] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.008113] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[0.008165] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/williamfbx/SLAM/slam_ws/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/williamfbx/SLAM/slam_ws/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'williamfbx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/williamfbx'), ('OLDPWD', '/home/williamfbx/SLAM'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'williamfbx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'williamfbx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/williamfbx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/williamfbx-ubuntu:@/tmp/.ICE-unix/1943,unix/williamfbx-ubuntu:/tmp/.ICE-unix/1943'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b9e0e7e_be45_41ac_ac0a_f8e34b004dde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/williamfbx/SLAM/slam_ws/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.085853] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099835] (-) TimerEvent: {}
+[0.199041] (localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199887] (-) TimerEvent: {}
+[0.230705] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.232757] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.237884] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.245890] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.256124] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.283689] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.285587] (localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300053] (-) TimerEvent: {}
+[0.370016] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400227] (-) TimerEvent: {}
+[0.410572] (localization) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.433241] (localization) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.440951] (localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.500423] (-) TimerEvent: {}
+[0.507951] (localization) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.534399] (localization) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.546938] (localization) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.600652] (-) TimerEvent: {}
+[0.648415] (localization) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.648962] (localization) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.700802] (-) TimerEvent: {}
+[0.728420] (localization) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.741557] (localization) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.801094] (-) TimerEvent: {}
+[0.868018] (localization) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.868372] (localization) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.901270] (-) TimerEvent: {}
+[1.001784] (-) TimerEvent: {}
+[1.102744] (-) TimerEvent: {}
+[1.203583] (-) TimerEvent: {}
+[1.304203] (-) TimerEvent: {}
+[1.404655] (-) TimerEvent: {}
+[1.505272] (-) TimerEvent: {}
+[1.605590] (-) TimerEvent: {}
+[1.706143] (-) TimerEvent: {}
+[1.806893] (-) TimerEvent: {}
+[1.907643] (-) TimerEvent: {}
+[2.008418] (-) TimerEvent: {}
+[2.108913] (-) TimerEvent: {}
+[2.209435] (-) TimerEvent: {}
+[2.310122] (-) TimerEvent: {}
+[2.410786] (-) TimerEvent: {}
+[2.511228] (-) TimerEvent: {}
+[2.611878] (-) TimerEvent: {}
+[2.702926] (localization) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.712107] (-) TimerEvent: {}
+[2.748143] (localization) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.812377] (-) TimerEvent: {}
+[2.888281] (localization) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.894308] (localization) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.912471] (-) TimerEvent: {}
+[3.013044] (-) TimerEvent: {}
+[3.089894] (localization) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.113130] (-) TimerEvent: {}
+[3.211584] (localization) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.213239] (-) TimerEvent: {}
+[3.217740] (localization) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.224283] (localization) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.313436] (-) TimerEvent: {}
+[3.341005] (localization) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.413630] (-) TimerEvent: {}
+[3.449836] (localization) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.513824] (-) TimerEvent: {}
+[3.560767] (localization) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.563361] (localization) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.564040] (localization) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.564611] (localization) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.565332] (localization) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.565970] (localization) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.566071] (localization) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.566246] (localization) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.567032] (localization) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.567926] (localization) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.568610] (localization) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.569287] (localization) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.570042] (localization) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.570748] (localization) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.571445] (localization) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.572348] (localization) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.573219] (localization) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.574160] (localization) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.575222] (localization) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.576047] (localization) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.576730] (localization) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.576940] (localization) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.577500] (localization) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.578237] (localization) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.578986] (localization) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.580397] (localization) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:26 (find_package):\n'}
+[3.580576] (localization) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.580674] (localization) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.580758] (localization) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.580837] (localization) StderrLine: {'line': b'\n'}
+[3.580916] (localization) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.580998] (localization) StderrLine: {'line': b'\n'}
+[3.581076] (localization) StderrLine: {'line': b'    /usr\n'}
+[3.581153] (localization) StderrLine: {'line': b'\n'}
+[3.581228] (localization) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.581304] (localization) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.581428] (localization) StderrLine: {'line': b'\x1b[0m\n'}
+[3.597479] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.613929] (-) TimerEvent: {}
+[3.649183] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.714080] (-) TimerEvent: {}
+[3.717871] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[3.725873] (localization) StdoutLine: {'line': b'-- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/localization\n'}
+[3.763063] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target localization_node\x1b[0m\n'}
+[3.814357] (-) TimerEvent: {}
+[3.820212] (localization) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o\x1b[0m\n'}
+[3.821406] (localization) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization.cpp.o\x1b[0m\n'}
+[3.914472] (-) TimerEvent: {}
+[4.014796] (-) TimerEvent: {}
+[4.115107] (-) TimerEvent: {}
+[4.215449] (-) TimerEvent: {}
+[4.315880] (-) TimerEvent: {}
+[4.416268] (-) TimerEvent: {}
+[4.516720] (-) TimerEvent: {}
+[4.617071] (-) TimerEvent: {}
+[4.717430] (-) TimerEvent: {}
+[4.817676] (-) TimerEvent: {}
+[4.918029] (-) TimerEvent: {}
+[5.018386] (-) TimerEvent: {}
+[5.118769] (-) TimerEvent: {}
+[5.219121] (-) TimerEvent: {}
+[5.319488] (-) TimerEvent: {}
+[5.419738] (-) TimerEvent: {}
+[5.520095] (-) TimerEvent: {}
+[5.620470] (-) TimerEvent: {}
+[5.720849] (-) TimerEvent: {}
+[5.821224] (-) TimerEvent: {}
+[5.921620] (-) TimerEvent: {}
+[6.021993] (-) TimerEvent: {}
+[6.122375] (-) TimerEvent: {}
+[6.222761] (-) TimerEvent: {}
+[6.323124] (-) TimerEvent: {}
+[6.423495] (-) TimerEvent: {}
+[6.523888] (-) TimerEvent: {}
+[6.624324] (-) TimerEvent: {}
+[6.724760] (-) TimerEvent: {}
+[6.825213] (-) TimerEvent: {}
+[6.925861] (-) TimerEvent: {}
+[7.026159] (-) TimerEvent: {}
+[7.126485] (-) TimerEvent: {}
+[7.226742] (-) TimerEvent: {}
+[7.327072] (-) TimerEvent: {}
+[7.427429] (-) TimerEvent: {}
+[7.527789] (-) TimerEvent: {}
+[7.628414] (-) TimerEvent: {}
+[7.728723] (-) TimerEvent: {}
+[7.829087] (-) TimerEvent: {}
+[7.929450] (-) TimerEvent: {}
+[8.029817] (-) TimerEvent: {}
+[8.130190] (-) TimerEvent: {}
+[8.230548] (-) TimerEvent: {}
+[8.330889] (-) TimerEvent: {}
+[8.431237] (-) TimerEvent: {}
+[8.531612] (-) TimerEvent: {}
+[8.631972] (-) TimerEvent: {}
+[8.732329] (-) TimerEvent: {}
+[8.832701] (-) TimerEvent: {}
+[8.933060] (-) TimerEvent: {}
+[9.033402] (-) TimerEvent: {}
+[9.133760] (-) TimerEvent: {}
+[9.234108] (-) TimerEvent: {}
+[9.334465] (-) TimerEvent: {}
+[9.434819] (-) TimerEvent: {}
+[9.535171] (-) TimerEvent: {}
+[9.635537] (-) TimerEvent: {}
+[9.735909] (-) TimerEvent: {}
+[9.836254] (-) TimerEvent: {}
+[9.936619] (-) TimerEvent: {}
+[10.036964] (-) TimerEvent: {}
+[10.137312] (-) TimerEvent: {}
+[10.237669] (-) TimerEvent: {}
+[10.338028] (-) TimerEvent: {}
+[10.438398] (-) TimerEvent: {}
+[10.538747] (-) TimerEvent: {}
+[10.639099] (-) TimerEvent: {}
+[10.739442] (-) TimerEvent: {}
+[10.839791] (-) TimerEvent: {}
+[10.940131] (-) TimerEvent: {}
+[11.040486] (-) TimerEvent: {}
+[11.140842] (-) TimerEvent: {}
+[11.241194] (-) TimerEvent: {}
+[11.341524] (-) TimerEvent: {}
+[11.441853] (-) TimerEvent: {}
+[11.542200] (-) TimerEvent: {}
+[11.642544] (-) TimerEvent: {}
+[11.742882] (-) TimerEvent: {}
+[11.843220] (-) TimerEvent: {}
+[11.943602] (-) TimerEvent: {}
+[12.043966] (-) TimerEvent: {}
+[12.144296] (-) TimerEvent: {}
+[12.244657] (-) TimerEvent: {}
+[12.345002] (-) TimerEvent: {}
+[12.445365] (-) TimerEvent: {}
+[12.545757] (-) TimerEvent: {}
+[12.646102] (-) TimerEvent: {}
+[12.746440] (-) TimerEvent: {}
+[12.846773] (-) TimerEvent: {}
+[12.947117] (-) TimerEvent: {}
+[13.047459] (-) TimerEvent: {}
+[13.147798] (-) TimerEvent: {}
+[13.248148] (-) TimerEvent: {}
+[13.348518] (-) TimerEvent: {}
+[13.448865] (-) TimerEvent: {}
+[13.549211] (-) TimerEvent: {}
+[13.649555] (-) TimerEvent: {}
+[13.749888] (-) TimerEvent: {}
+[13.850241] (-) TimerEvent: {}
+[13.950602] (-) TimerEvent: {}
+[14.050943] (-) TimerEvent: {}
+[14.151287] (-) TimerEvent: {}
+[14.251630] (-) TimerEvent: {}
+[14.351960] (-) TimerEvent: {}
+[14.452304] (-) TimerEvent: {}
+[14.552664] (-) TimerEvent: {}
+[14.653026] (-) TimerEvent: {}
+[14.753383] (-) TimerEvent: {}
+[14.853731] (-) TimerEvent: {}
+[14.954081] (-) TimerEvent: {}
+[15.054440] (-) TimerEvent: {}
+[15.154788] (-) TimerEvent: {}
+[15.255144] (-) TimerEvent: {}
+[15.355537] (-) TimerEvent: {}
+[15.455898] (-) TimerEvent: {}
+[15.556248] (-) TimerEvent: {}
+[15.656608] (-) TimerEvent: {}
+[15.756951] (-) TimerEvent: {}
+[15.857302] (-) TimerEvent: {}
+[15.957674] (-) TimerEvent: {}
+[16.057933] (-) TimerEvent: {}
+[16.158277] (-) TimerEvent: {}
+[16.258629] (-) TimerEvent: {}
+[16.358997] (-) TimerEvent: {}
+[16.459371] (-) TimerEvent: {}
+[16.559626] (-) TimerEvent: {}
+[16.659977] (-) TimerEvent: {}
+[16.760358] (-) TimerEvent: {}
+[16.860697] (-) TimerEvent: {}
+[16.961031] (-) TimerEvent: {}
+[17.061390] (-) TimerEvent: {}
+[17.161753] (-) TimerEvent: {}
+[17.262094] (-) TimerEvent: {}
+[17.362444] (-) TimerEvent: {}
+[17.462790] (-) TimerEvent: {}
+[17.563144] (-) TimerEvent: {}
+[17.663513] (-) TimerEvent: {}
+[17.763885] (-) TimerEvent: {}
+[17.864239] (-) TimerEvent: {}
+[17.964615] (-) TimerEvent: {}
+[18.064965] (-) TimerEvent: {}
+[18.165333] (-) TimerEvent: {}
+[18.265709] (-) TimerEvent: {}
+[18.366077] (-) TimerEvent: {}
+[18.466414] (-) TimerEvent: {}
+[18.566761] (-) TimerEvent: {}
+[18.667105] (-) TimerEvent: {}
+[18.767457] (-) TimerEvent: {}
+[18.867823] (-) TimerEvent: {}
+[18.968191] (-) TimerEvent: {}
+[19.068573] (-) TimerEvent: {}
+[19.168918] (-) TimerEvent: {}
+[19.269252] (-) TimerEvent: {}
+[19.369618] (-) TimerEvent: {}
+[19.469987] (-) TimerEvent: {}
+[19.570385] (-) TimerEvent: {}
+[19.670785] (-) TimerEvent: {}
+[19.771110] (-) TimerEvent: {}
+[19.871453] (-) TimerEvent: {}
+[19.971801] (-) TimerEvent: {}
+[20.072136] (-) TimerEvent: {}
+[20.172489] (-) TimerEvent: {}
+[20.272846] (-) TimerEvent: {}
+[20.373192] (-) TimerEvent: {}
+[20.473519] (-) TimerEvent: {}
+[20.573859] (-) TimerEvent: {}
+[20.674186] (-) TimerEvent: {}
+[20.774532] (-) TimerEvent: {}
+[20.874866] (-) TimerEvent: {}
+[20.975215] (-) TimerEvent: {}
+[21.075588] (-) TimerEvent: {}
+[21.175912] (-) TimerEvent: {}
+[21.276239] (-) TimerEvent: {}
+[21.376582] (-) TimerEvent: {}
+[21.476848] (-) TimerEvent: {}
+[21.577172] (-) TimerEvent: {}
+[21.677532] (-) TimerEvent: {}
+[21.777851] (-) TimerEvent: {}
+[21.878189] (-) TimerEvent: {}
+[21.978538] (-) TimerEvent: {}
+[22.078868] (-) TimerEvent: {}
+[22.179198] (-) TimerEvent: {}
+[22.279543] (-) TimerEvent: {}
+[22.379874] (-) TimerEvent: {}
+[22.480207] (-) TimerEvent: {}
+[22.580526] (-) TimerEvent: {}
+[22.680851] (-) TimerEvent: {}
+[22.781179] (-) TimerEvent: {}
+[22.881522] (-) TimerEvent: {}
+[22.981869] (-) TimerEvent: {}
+[23.082199] (-) TimerEvent: {}
+[23.182542] (-) TimerEvent: {}
+[23.282876] (-) TimerEvent: {}
+[23.383207] (-) TimerEvent: {}
+[23.483526] (-) TimerEvent: {}
+[23.583759] (-) TimerEvent: {}
+[23.684111] (-) TimerEvent: {}
+[23.784450] (-) TimerEvent: {}
+[23.884789] (-) TimerEvent: {}
+[23.985124] (-) TimerEvent: {}
+[24.085456] (-) TimerEvent: {}
+[24.185794] (-) TimerEvent: {}
+[24.286124] (-) TimerEvent: {}
+[24.386462] (-) TimerEvent: {}
+[24.486806] (-) TimerEvent: {}
+[24.587151] (-) TimerEvent: {}
+[24.687511] (-) TimerEvent: {}
+[24.787830] (-) TimerEvent: {}
+[24.888159] (-) TimerEvent: {}
+[24.988556] (-) TimerEvent: {}
+[25.089041] (-) TimerEvent: {}
+[25.189388] (-) TimerEvent: {}
+[25.289729] (-) TimerEvent: {}
+[25.390065] (-) TimerEvent: {}
+[25.490411] (-) TimerEvent: {}
+[25.590753] (-) TimerEvent: {}
+[25.691117] (-) TimerEvent: {}
+[25.791475] (-) TimerEvent: {}
+[25.891843] (-) TimerEvent: {}
+[25.992212] (-) TimerEvent: {}
+[26.052531] (localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable localization_node\x1b[0m\n'}
+[26.092434] (-) TimerEvent: {}
+[26.192958] (-) TimerEvent: {}
+[26.293652] (-) TimerEvent: {}
+[26.394001] (-) TimerEvent: {}
+[26.494388] (-) TimerEvent: {}
+[26.594683] (-) TimerEvent: {}
+[26.694985] (-) TimerEvent: {}
+[26.795265] (-) TimerEvent: {}
+[26.895642] (-) TimerEvent: {}
+[26.996064] (-) TimerEvent: {}
+[27.096499] (-) TimerEvent: {}
+[27.196888] (-) TimerEvent: {}
+[27.297290] (-) TimerEvent: {}
+[27.397699] (-) TimerEvent: {}
+[27.498093] (-) TimerEvent: {}
+[27.598502] (-) TimerEvent: {}
+[27.698794] (-) TimerEvent: {}
+[27.799188] (-) TimerEvent: {}
+[27.899512] (-) TimerEvent: {}
+[27.999831] (-) TimerEvent: {}
+[28.100150] (-) TimerEvent: {}
+[28.200432] (-) TimerEvent: {}
+[28.300719] (-) TimerEvent: {}
+[28.401017] (-) TimerEvent: {}
+[28.448749] (localization) StdoutLine: {'line': b'[100%] Built target localization_node\n'}
+[28.457315] (localization) CommandEnded: {'returncode': 0}
+[28.457827] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[28.467673] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/williamfbx/SLAM/slam_ws/build/localization'], 'cwd': '/home/williamfbx/SLAM/slam_ws/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'williamfbx'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/williamfbx'), ('OLDPWD', '/home/williamfbx/SLAM'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'williamfbx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'williamfbx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/williamfbx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/williamfbx-ubuntu:@/tmp/.ICE-unix/1943,unix/williamfbx-ubuntu:/tmp/.ICE-unix/1943'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b9e0e7e_be45_41ac_ac0a_f8e34b004dde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/williamfbx/SLAM/slam_ws/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[28.483982] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.485558] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/lib/localization/localization_node\n'}
+[28.496041] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/localization/lib/localization/localization_node" to ""\n'}
+[28.496176] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/include/localization\n'}
+[28.496235] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/include/localization/localization.hpp\n'}
+[28.496291] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/launch\n'}
+[28.496348] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/launch/localization.launch.py\n'}
+[28.496444] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[28.496503] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[28.496562] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[28.496615] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[28.496701] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/path.sh\n'}
+[28.496755] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/path.dsv\n'}
+[28.496804] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.bash\n'}
+[28.496876] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.sh\n'}
+[28.496924] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.zsh\n'}
+[28.496972] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.dsv\n'}
+[28.497040] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.dsv\n'}
+[28.497084] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[28.497128] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[28.497170] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[28.497217] (localization) StdoutLine: {'line': b'-- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.xml\n'}
+[28.498557] (localization) CommandEnded: {'returncode': 0}
+[28.501154] (-) TimerEvent: {}
+[28.517497] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[28.517935] (-) EventReactorShutdown: {}

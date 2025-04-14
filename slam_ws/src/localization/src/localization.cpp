@@ -1,92 +1,120 @@
 #include "localization/localization.hpp"
+#include <thread>
 
-Localization::Localization() : Node("localization_node")
-{   
-
-    // Setup Communications
+Localization::Localization() : Node("localization_node") {
     setupCommunications();
-
-    RCLCPP_INFO(this->get_logger(), "ICP localization initialized");
+    map_.reset(new pcl::PointCloud<pcl::PointNormal>());
+    RCLCPP_INFO(this->get_logger(), "Localization node initialized");
 }
 
-void Localization::setupCommunications(){
-    // QoS profile
-    rclcpp::QoS qos_profile = rclcpp::QoS(rclcpp::SensorDataQoS()).reliability(rclcpp::ReliabilityPolicy::BestEffort);
+void Localization::setupCommunications() {
+    cloud_subscriber_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+        "/camera/camera/depth/color/points", 10,
+        std::bind(&Localization::pointCloudCallback, this, std::placeholders::_1));
 
-    // Subscribers
-    camera_subscriber_ = this->create_subscription<sensor_msgs::msg::Image>(
-        "camera/camera/color/image_raw",
-        qos_profile,
-        std::bind(&Localization::imageCallback, this, std::placeholders::_1));
+    camera_info_subscriber_ = this->create_subscription<sensor_msgs::msg::CameraInfo>(
+        "/camera/camera/depth/camera_info", 10,
+        std::bind(&Localization::cameraInfoCallback, this, std::placeholders::_1));
 
-    // Broadcasters
+    pointcloud_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("mapping/global_point_cloud_map", 10);
+
+
     tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
 }
 
-void Localization::imageCallback(const sensor_msgs::msg::Image::SharedPtr msg){
-    image_thread_ = std::thread(std::bind(&Localization::processImage, this, msg));
+void Localization::cameraInfoCallback(const sensor_msgs::msg::CameraInfo::SharedPtr msg) {
+    if (has_camera_info_) return;
 
-    image_thread_.detach();
+    camera_intrinsics_ = (cv::Mat_<float>(3, 3) <<
+        msg->k[0], msg->k[1], msg->k[2],
+        msg->k[3], msg->k[4], msg->k[5],
+        msg->k[6], msg->k[7], msg->k[8]);
+
+    has_camera_info_ = true;
+    RCLCPP_INFO(this->get_logger(), "Received camera intrinsics");
 }
 
-void Localization::publishTransform(const Eigen::Matrix4f& T_cam_to_world)
-{
-    // Extract rotation and translation
-    Eigen::Matrix3f rotation = T_cam_to_world.block<3, 3>(0, 0);
-    Eigen::Vector3f translation = T_cam_to_world.block<3, 1>(0, 3);
+void Localization::pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {
+    if (!has_camera_info_) return;
 
-    // Convert rotation to quaternion
-    Eigen::Quaternionf quat(rotation);
-    quat.normalize();
+    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>());
+    pcl::fromROSMsg(*msg, *cloud);
 
-    // Create the transform message
+    // Estimate normals
+    pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> ne;
+    ne.setInputCloud(cloud);
+    pcl::search::KdTree<pcl::PointXYZ>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZ>());
+    ne.setSearchMethod(tree);
+    pcl::PointCloud<pcl::Normal>::Ptr normals(new pcl::PointCloud<pcl::Normal>());
+    ne.setKSearch(10);
+    ne.compute(*normals);
+
+    pcl::PointCloud<pcl::PointNormal>::Ptr input_cloud(new pcl::PointCloud<pcl::PointNormal>());
+    pcl::concatenateFields(*cloud, *normals, *input_cloud);
+
+    std::vector<int> indices;
+    pcl::removeNaNFromPointCloud(*input_cloud, *input_cloud, indices);
+
+    if (!map_initialized_) {
+        *map_ = *input_cloud;
+        map_initialized_ = true;
+        return;
+    }
+
+    pcl::IterativeClosestPointWithNormals<pcl::PointNormal, pcl::PointNormal> icp;
+    icp.setInputSource(input_cloud);
+    icp.setInputTarget(map_);
+    icp.setMaximumIterations(20);
+    icp.setMaxCorrespondenceDistance(0.1);
+    pcl::PointCloud<pcl::PointNormal> aligned;
+    icp.align(aligned);
+
+    if (icp.hasConverged()) {
+        Eigen::Matrix4f T = icp.getFinalTransformation();
+        publishTransform(T);
+        Eigen::IOFormat fmt(Eigen::StreamPrecision, Eigen::DontAlignCols);
+        std::stringstream ss;
+        ss << T.format(fmt);
+        RCLCPP_INFO(this->get_logger(), "Estimated T_cam_to_world:\n%s", ss.str().c_str());
+
+        pcl::PointCloud<pcl::PointNormal>::Ptr transformed(new pcl::PointCloud<pcl::PointNormal>());
+        pcl::transformPointCloudWithNormals(aligned, *transformed, T);
+
+        pcl::VoxelGrid<pcl::PointNormal> voxel;
+        voxel.setInputCloud(transformed);
+        voxel.setLeafSize(0.05f, 0.05f, 0.05f);
+        voxel.filter(*transformed);
+
+        *map_ += *transformed;
+
+        // DEBUG: Publish global point cloud map
+        sensor_msgs::msg::PointCloud2 result_msg;
+        pcl::toROSMsg(*map_, result_msg);   
+        result_msg.header.frame_id = "map"; 
+        pointcloud_publisher_->publish(result_msg);
+    } else {
+        RCLCPP_WARN(this->get_logger(), "ICP did not converge");
+    }
+}
+
+void Localization::publishTransform(const Eigen::Matrix4f& T) {
+    Eigen::Matrix3f R = T.block<3, 3>(0, 0);
+    Eigen::Vector3f t = T.block<3, 1>(0, 3);
+    Eigen::Quaternionf q(R);
+    q.normalize();
+
     geometry_msgs::msg::TransformStamped tf_msg;
     tf_msg.header.stamp = this->get_clock()->now();
     tf_msg.header.frame_id = "map";
     tf_msg.child_frame_id = "base_link";
 
-    tf_msg.transform.translation.x = translation.x();
-    tf_msg.transform.translation.y = translation.y();
-    tf_msg.transform.translation.z = translation.z();
+    tf_msg.transform.translation.x = t.x();
+    tf_msg.transform.translation.y = t.y();
+    tf_msg.transform.translation.z = t.z();
+    tf_msg.transform.rotation.x = q.x();
+    tf_msg.transform.rotation.y = q.y();
+    tf_msg.transform.rotation.z = q.z();
+    tf_msg.transform.rotation.w = q.w();
 
-    tf_msg.transform.rotation.x = quat.x();
-    tf_msg.transform.rotation.y = quat.y();
-    tf_msg.transform.rotation.z = quat.z();
-    tf_msg.transform.rotation.w = quat.w();
-
-    // Publish the transform
     tf_broadcaster_->sendTransform(tf_msg);
-}
-
-void Localization::processImage(const sensor_msgs::msg::Image::SharedPtr msg){
-
-    // Convert ROS image to OpenCV Mat
-    try {
-        cv::Mat image = cv_bridge::toCvCopy(msg, "bgr8")->image;
-
-        // DEBUG
-        // RCLCPP_INFO(this->get_logger(), "Image converted to OpenCV format. Size: %dx%d",
-        //             image.cols, image.rows);
-
-    } catch (cv_bridge::Exception& e) {
-        RCLCPP_ERROR(this->get_logger(), "cv_bridge exception: %s", e.what());
-    }
-
-    Eigen::Matrix4f T_cam_to_world = Eigen::Matrix4f::Identity();
-
-    // TODO: Use the cv::Mat image and perform ICP. Obtain the camera to world transformation using ICP (T_cam_to_world in HW4) for each timestep
-    // Populate the 4 x 4 extrinsic matrix of the transformation
-
-    // // TESTING
-    // T_cam_to_world(0, 3) = 4.0f;  // X
-    // T_cam_to_world(1, 3) = 4.0f;  // Y
-    
-    // DEBUG
-    // Eigen::IOFormat fmt(Eigen::StreamPrecision, Eigen::DontAlignCols);
-    // std::stringstream ss;
-    // ss << T_cam_to_world.format(fmt);
-    // RCLCPP_INFO(this->get_logger(), "Estimated T_cam_to_world:\n%s", ss.str().c_str());
-
-    // Publish estimated ICP transform to transform publisher
-    publishTransform(T_cam_to_world);
-}
+} 

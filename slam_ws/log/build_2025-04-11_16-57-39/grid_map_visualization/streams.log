@@ -1,0 +1,83 @@
+[0.035s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_visualization': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_visualization -- -j12 -l12
+[0.093s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Found grid_map_cmake_helpers: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.236s] -- Found grid_map_core: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_core/share/grid_map_core/cmake)
+[0.238s] -- Found grid_map_msgs: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[0.264s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.271s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found grid_map_ros: 2.0.1 (/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/share/grid_map_ros/cmake)
+[0.410s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.411s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.429s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.438s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.455s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.463s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.654s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.734s] -- Configured cppcheck include dirs: /home/williamfbx/SLAM/slam_ws/src/drivers/grid_map/grid_map_visualization/include
+[0.734s] -- Configured cppcheck exclude dirs and/or files: 
+[0.735s] -- Added test 'lint_cmake' to check CMake code style
+[0.737s] -- Added test 'uncrustify' to check C / C++ code style
+[0.737s] -- Configured uncrustify additional arguments: 
+[0.737s] -- Added test 'xmllint' to check XML markup files
+[0.741s] -- Configuring done
+[0.810s] -- Generating done
+[0.820s] -- Build files have been written to: /home/williamfbx/SLAM/slam_ws/build/grid_map_visualization
+[0.865s] [35m[1mConsolidate compiler generated dependencies of target grid_map_visualization_core[0m
+[0.910s] [  7%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/FlatPointCloudVisualization.cpp.o[0m
+[0.910s] [ 15%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/GridMapVisualization.cpp.o[0m
+[0.911s] [ 23%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/GridMapVisualizationHelpers.cpp.o[0m
+[0.911s] [ 30%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/GridCellsVisualization.cpp.o[0m
+[0.913s] [ 38%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/MapRegionVisualization.cpp.o[0m
+[0.914s] [ 46%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/OccupancyGridVisualization.cpp.o[0m
+[0.918s] [ 53%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/PointCloudVisualization.cpp.o[0m
+[0.926s] [ 61%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/VectorVisualization.cpp.o[0m
+[0.948s] [ 69%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/VisualizationBase.cpp.o[0m
+[0.952s] [ 76%] [32mBuilding CXX object CMakeFiles/grid_map_visualization_core.dir/src/visualizations/VisualizationFactory.cpp.o[0m
+[51.542s] [ 84%] [32m[1mLinking CXX shared library libgrid_map_visualization_core.so[0m
+[52.705s] [ 84%] Built target grid_map_visualization_core
+[52.752s] [35m[1mConsolidate compiler generated dependencies of target grid_map_visualization[0m
+[52.830s] [ 92%] [32mBuilding CXX object CMakeFiles/grid_map_visualization.dir/src/grid_map_visualization_node.cpp.o[0m
+[62.242s] [100%] [32m[1mLinking CXX executable grid_map_visualization[0m
+[63.126s] [100%] Built target grid_map_visualization
+[63.146s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_visualization' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/grid_map_visualization -- -j12 -l12
+[63.149s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_visualization': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_visualization
+[63.164s] -- Install configuration: "Release"
+[63.167s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/lib/libgrid_map_visualization_core.so
+[63.170s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/lib/libgrid_map_visualization_core.so" to ""
+[63.179s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/lib/grid_map_visualization/grid_map_visualization
+[63.179s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/lib/grid_map_visualization/grid_map_visualization" to ""
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/occupancy_grid_preview.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/occupancy_grid.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/point_cloud_preview.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/point_cloud.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/grid_cells.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/grid_cells_preview.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/vectors.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/doc/vectors_preview.jpg
+[63.179s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/environment/library_path.sh
+[63.180s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/environment/library_path.dsv
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/ament_index/resource_index/package_run_dependencies/grid_map_visualization
+[63.180s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/ament_index/resource_index/parent_prefix_path/grid_map_visualization
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/environment/ament_prefix_path.sh
+[63.180s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/environment/ament_prefix_path.dsv
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/environment/path.sh
+[63.180s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/environment/path.dsv
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.bash
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.sh
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.zsh
+[63.180s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/local_setup.dsv
+[63.180s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/package.dsv
+[63.180s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/ament_index/resource_index/packages/grid_map_visualization
+[63.181s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.181s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_libraries-extras.cmake
+[63.181s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.181s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/grid_map_visualizationConfig.cmake
+[63.186s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/cmake/grid_map_visualizationConfig-version.cmake
+[63.186s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/grid_map_visualization/share/grid_map_visualization/package.xml
+[63.186s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/grid_map_visualization' returned '0': AMENT_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs:/home/williamfbx/SLAM/slam_ws/install/grid_map_core:/home/williamfbx/SLAM/slam_ws/install/grid_map_cmake_helpers:/opt/ros/humble LD_LIBRARY_PATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_ros/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_cv/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/lib:/home/williamfbx/SLAM/slam_ws/install/grid_map_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/williamfbx/SLAM/slam_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/grid_map_visualization

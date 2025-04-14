@@ -1,0 +1,30 @@
+[0.038s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target localization_node[0m
+[0.188s] [ 33%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization.cpp.o[0m
+[23.337s] [ 66%] [32m[1mLinking CXX executable localization_node[0m
+[25.725s] [100%] Built target localization_node
+[25.736s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/williamfbx/SLAM/slam_ws/build/localization -- -j12 -l12
+[25.738s] Invoking command in '/home/williamfbx/SLAM/slam_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization
+[25.746s] -- Install configuration: ""
+[25.746s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/lib/localization/localization_node
+[25.756s] -- Set runtime path of "/home/williamfbx/SLAM/slam_ws/install/localization/lib/localization/localization_node" to ""
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/include/localization
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/include/localization/localization.hpp
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/launch
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/launch/localization.launch.py
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/path.sh
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/environment/path.dsv
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.bash
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.sh
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.zsh
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/local_setup.dsv
+[25.756s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.dsv
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/ament_index/resource_index/packages/localization
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+[25.756s] -- Up-to-date: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[25.757s] -- Installing: /home/williamfbx/SLAM/slam_ws/install/localization/share/localization/package.xml
+[25.758s] Invoked command in '/home/williamfbx/SLAM/slam_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/williamfbx/SLAM/slam_ws/build/localization
