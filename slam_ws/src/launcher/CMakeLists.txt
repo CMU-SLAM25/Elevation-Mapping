@@ -1,5 +1,5 @@
 ######
-# Initially written for SLAM project by Boxiang Fu (boxiangf@andrew.cmu.edu)
+# Initially written for SLAM project by Boxiang Fu (boxiangf@cs.cmu.edu)
 ######
 
 cmake_minimum_required(VERSION 3.8)

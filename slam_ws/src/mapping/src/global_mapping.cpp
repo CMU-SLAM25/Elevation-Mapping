@@ -25,6 +25,7 @@ void WorldModel::setupCommunications(){
     // Publishers
     global_map_publisher_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("mapping/global_map", qos);
     filtered_global_map_publisher_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("mapping/filtered_global_map", qos);
+    traversability_map_publisher_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("mapping/traversability_map", qos);
 
     // Subscribers
     transformed_pcl_subscriber_ = this->create_subscription<sensor_msgs::msg::PointCloud2>("mapping/transformed_pointcloud", 10, 
@@ -51,6 +52,10 @@ void WorldModel::configureMaps(){
     filtered_global_map_.header.frame_id = "map";
     filtered_global_map_.info = global_map_.info;
 
+    traversability_map_.header.frame_id = "map";
+    traversability_map_.info = global_map_.info;
+    
+
     // Initialize bayes filter
     for(size_t i = 0; i < global_map_.info.width*global_map_.info.height; i++){
         BayesFilter bf;
@@ -60,9 +65,11 @@ void WorldModel::configureMaps(){
     // Initialize occupancy grid
     this->global_map_.data.resize(global_map_.info.width*global_map_.info.height);
     this->filtered_global_map_.data.resize(global_map_.info.width*global_map_.info.height);
+    this->traversability_map_.data.resize(global_map_.info.width * global_map_.info.height);
     for(size_t i = 0; i < this->global_map_.info.width*this->global_map_.info.height; i++){
         this->global_map_.data[i] = 0;
         this->filtered_global_map_.data[i] = 0;
+        this->traversability_map_.data[i] = -1;
     }
 }
 
@@ -112,6 +119,7 @@ void WorldModel::fuseMap(const sensor_msgs::msg::PointCloud2::SharedPtr msg)  {
     }
     
     filterMap();
+    computeTraversability();
 }
 
 pcl::PointCloud<pcl::PointXYZ>::Ptr WorldModel::transformMap(const sensor_msgs::msg::PointCloud2::SharedPtr msg)  {
@@ -158,7 +166,7 @@ void WorldModel::filterMap(){
         if(global_map_.data[i] == 0){
             continue;
         }
-        // RCLCPP_INFO(this->get_logger(), "Bayes Filter initialized5");
+        // RCLCPP_INFO(this->get_logger(), "Bayes Filter initialized");
         if(abs(filtered_global_map_.data[i] - global_map_.data[i]) > gradient){
             bayes_filter_[i].updateCell(global_map_.data[i], 10.0);
             filtered_global_map_.data[i] = int(bayes_filter_[i].getCellElevation());
@@ -194,8 +202,32 @@ void WorldModel::filterMap(){
     }
 }
 
+void WorldModel::computeTraversability() {
+    for (size_t i = 0; i < filtered_global_map_.data.size(); i++) {
+        int cell_elev = filtered_global_map_.data[i];
+
+        if (cell_elev == 0) {
+            traversability_map_.data[i] = -1;
+            continue;
+        }
+
+        // Mark as non-traversable if elevation > threshold
+        if (cell_elev > TRAVERSABILITY_THRESHOLD) {
+            traversability_map_.data[i] = 100;
+        } else {
+            traversability_map_.data[i] = 0;
+        }
+    }
+}
+
 // Map publishers
 void WorldModel::publishGlobalMap(){
+    // global_map_.header.stamp = this->now();
     // global_map_publisher_->publish(global_map_);
+
+    filtered_global_map_.header.stamp = this->now();
     filtered_global_map_publisher_->publish(filtered_global_map_);
+
+    traversability_map_.header.stamp = this->now();
+    traversability_map_publisher_->publish(traversability_map_);
 }

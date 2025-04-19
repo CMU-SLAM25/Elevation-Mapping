@@ -23,8 +23,10 @@ class WorldModel : public rclcpp::Node
         const double MAP_DIMENSION = 8.0;
         const double MAP_RESOLUTION = 0.1;
         const double ELEVATION_SCALE = 100;
+        const double TRAVERSABILITY_THRESHOLD = 20;
         nav_msgs::msg::OccupancyGrid global_map_, 
-                                     filtered_global_map_;
+                                     filtered_global_map_,
+                                     traversability_map_;
 
         // Bayes Filter
         std::vector<BayesFilter> bayes_filter_;
@@ -40,6 +42,7 @@ class WorldModel : public rclcpp::Node
         // Publishers
         rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr global_map_publisher_;
         rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr filtered_global_map_publisher_;
+        rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr traversability_map_publisher_;
 
         // Wall Timer
         rclcpp::TimerBase::SharedPtr timer_global_map_;
@@ -51,6 +54,7 @@ class WorldModel : public rclcpp::Node
         void transformedPCLCallback(const sensor_msgs::msg::PointCloud2::SharedPtr );
         void fuseMap(const sensor_msgs::msg::PointCloud2::SharedPtr );
         void filterMap();
+        void computeTraversability();
         void publishGlobalMap();
 
     public:

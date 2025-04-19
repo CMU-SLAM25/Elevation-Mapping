@@ -1,6 +1,5 @@
+/home/williamfbx/SLAM/slam_ws/install/launcher/share/launcher/launch/gripmap.rviz
 /home/williamfbx/SLAM/slam_ws/install/launcher/share/launcher/launch/launch.py
-/home/williamfbx/SLAM/slam_ws/install/launcher/share/launcher/launch/gridmap.rviz
-/home/williamfbx/SLAM/slam_ws/install/launcher/share/launcher/launch/occupancygrid.rviz
 /home/williamfbx/SLAM/slam_ws/install/launcher/share/ament_index/resource_index/package_run_dependencies/launcher
 /home/williamfbx/SLAM/slam_ws/install/launcher/share/ament_index/resource_index/parent_prefix_path/launcher
 /home/williamfbx/SLAM/slam_ws/install/launcher/share/launcher/environment/ament_prefix_path.sh
